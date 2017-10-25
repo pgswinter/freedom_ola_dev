@@ -1,0 +1,371 @@
+// Detail and item of frame
+@import map-get
+@import fw_ola_button_common
+@import fw_ola_animate_common
+@import fw_ola_align_common
++exports("fw_ola_style_common")
+	// 	LOGO ---------------------------------------------------------------------
+	.fw_default_logo
+		width: 35% !important
+	.fw_mini_logo
+		width: 30% !important
+
+	// 	CONTAINER ---------------------------------------------------------------------
+	.container
+		width: 75%
+		
+	// 	TITLE OF ARTICLE ---------------------------------------------------------------------
+	.fw_title_1st
+		padding: 7px 9px
+		position: absolute
+		left: 0
+		top: 0
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6
+			text-transform: uppercase
+			color: #fff
+			
+			font-weight: bold
+			padding: 0
+	.fw_title_2nd
+		padding: 20px 0 80px 0
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6
+			padding: 0
+			color: map-get($fw-color-dark,3)
+			text-align: center
+			font-size: 27pt
+	.fw_title_3rd
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6
+			margin-top: 0
+			margin-bottom: 20px
+			text-align: left
+			font-size: 22pt
+			
+			font-weight: bold
+		~ p
+			font-size: 12pt
+	.fw_title_4th
+		padding: 40px 0 40px 15px
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6
+			margin: 0
+			text-align: left
+			font-size: 22pt
+			
+			font-weight: bold
+	.fw_title_5th
+		margin-top: 36px
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6
+			font-size: 19pt
+			color: #fff
+	.fw_title_6th
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6		
+			font-size: 16pt
+			text-align: left
+			margin-top: 0
+			margin-bottom: 20px
+			font-weight: bold
+			text-transform: uppercase
+	.fw_title_7th
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6	
+			font-weight: bold
+			text-align: center
+	div[class^="title"],
+	div[class*="title"],
+		~ p
+			text-align: justify
+
+	// 	ITEM ARTICLE ---------------------------------------------------------------------
+	.fw_img_article
+		img
+			width: 100%
+	.fw_aside_article
+		aside
+			padding-left: 35px
+			padding-right: 35px
+
+	// 	CORNER OF LAYOUT ---------------------------------------------------------------------
+	.fw_corner
+		position: absolute
+		width: 100%
+		height: 100%
+		left: 0
+		top: 0
+		img
+			width: 100%
+
+	// 	DISPLAY ELEMENT ---------------------------------------------------------------------
+	.fw_hide_element
+		display: none !important
+	.fw_show_element
+		display: block !important
+
+	// 	BOX ---------------------------------------------------------------------
+	.fw_orange_box
+		background-color: map-get($fw-color-hot,1) !important
+		color: map-get($fw-color-dark,1) !important
+		span
+			color: #fff !important
+	// 	BORDER ---------------------------------------------------------------------
+	.fw_bd_xs
+		border: 1px solid #000
+	.fw_bd_sm
+		border: 3px solid map-get($fw-color-dark,1)
+	.fw_bd_md
+		border: 5px solid #000
+	.fw_bd_lg
+		border: 7px solid #000
+	.fw_bd_lx
+		border: 10px solid #000
+	.fw_border_bottom_line
+		border-bottom: 1px solid #eee
+	.fw_border_bottom
+		padding-bottom: 47%
+		margin-bottom: 0
+		&:after
+			position: absolute
+			bottom: 0
+			left: 0
+			height: 5px
+			display: block
+			content: ''
+			width: 36px
+	.fw_border_righ
+		width: 100%
+		position: relative
+		&:after
+			position: absolute
+			bottom: 0
+			right: 0
+			height: 5px
+			display: block
+			content: ''
+			width: 36px
+		h3
+			margin-bottom: 0
+	.fw_border_hover_0th
+		cursor: pointer
+		padding: 15px 0
+		border: 3px solid transparent
+		&:hover
+			border: 3px solid #fff
+
+	// 	BACKGROUND ---------------------------------------------------------------------
+	.fw_bg_white_0th
+		background-color: rgba(255,255,255,1) !important
+	.fw_bg_white_0th
+		[class^="fw_border"],
+		[class*="fw_border"]
+			&:after
+				background-color: map-get($fw-color-dark,1)
+	.fw_bg_white_0th
+		div[class^="fw_title"],
+		div[class*="fw_title"]
+			h3
+				color: map-get($fw-color-dark,1)
+			~ p
+				color: map-get($fw-color-dark,1)
+	.fw_bg_white_1st
+		background-color: rgba(255,255,255,0.8) !important
+	.fw_bg_white_2nd
+		background-color: #fff
+	.fw_bg_dark_0th
+		background-color: map-get($fw-color-dark,5)
+	.fw_bg_dark_0th
+		[class^="fw_border"],
+		[class*="fw_border"]
+			&:after
+				background-color: map-get($fw-color-dark,3)
+	.fw_bg_dark_1st
+		background-color: map-get($fw-color-dark,3)
+	.fw_bg_dark_1st
+		div[class^="fw_title"],
+		div[class*="fw_title"]
+			h3
+				color: map-get($fw-color-dark,1)
+			~ p
+				color: map-get($fw-color-dark,1)
+	.fw_bg_dark_1st
+		[class^="fw_border"],
+		[class*="fw_border"]
+			&:after
+				background-color: map-get($fw-color-dark,1)
+	.fw_bg_dark_2nd
+		background-color: #f7f7f7
+	.fw_bg_dark_0th,
+	.fw_bg_dark_2nd
+		h2
+			color: map-get($fw-color-dark,2)
+		div[class^="fw_title"],
+		div[class*="fw_title"]
+			h3
+				color: map-get($fw-color-dark,2)
+			~ p
+				color: map-get($fw-color-dark,2)
+	.fw_bg_dark_3rd
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6,
+		p,
+		label,
+		span
+			color: map-get($fw-color-dark,4)
+	.fw_bg_orange_0th
+		div[class^="fw_title"],
+		div[class*="fw_title"]
+			h3
+				color: #fff
+			~ p
+				color: #fff
+	.fw_bg_orange_0th
+		background-color: map-get($fw-color-hot,2)
+	.fw_bg_orange_0th
+		[class^="fw_border"],
+		[class*="fw_border"]
+			&:after
+				background-color: #fff
+	.fw_bg_orange_1st
+		background-color: map-get($fw-color-hot,1)
+	
+	// 	INTRODUCTION ---------------------------------------------------------------------
+	.fw_manage_intro
+		.img_wrap__fw_manage_intro
+			width: 200px		
+			float: left
+			img 
+				width: 100%
+		.txt_wrap__fw_manage_intro
+			float: left
+			width: 650px
+			padding-left: 60px
+			height: 224px
+			position: relative
+			.txt_wrap_paragraph__txt_wrap
+				height: 198px
+				position: relative
+				p
+					position: absolute
+					-ms-transform: translateX(0) translateY(-50%)
+					-webkit-transform: translate(0,-50%)
+					transform: translate(0,-50%)
+					top: 30%
+
+	// COLOR LAYOUT ---------------------------------------------------------------------
+	.fw_grey
+		&.fw_text_gray
+			color: map-get($fw-color-dark,2)
+		&.fw_bg_gray
+			background-color: map-get($fw-color-dark,2)
+		&.fw_border_gray
+			border: 1px solid map-get($fw-color-dark,2)
+	.fw_dark
+		&.fw_text_dark
+			color: map-get($fw-color-dark,1)
+		&.fw_bg_dark
+			background-color: map-get($fw-color-dark,1)
+		&.fw_border_dark
+			border: 1px solid map-get($fw-color-dark,1)
+	.fw_orange
+		&.fw_text_orange
+			color: map-get($fw-color-hot,1)
+		&.fw_bg_orange
+			background-color: map-get($fw-color-hot,1)
+		&.fw_border_orange
+			border: 1px solid map-get($fw-color-hot,1)
+	.fw_chili
+		&.fw_text_chili
+			color: map-get($fw-color-hot,3)
+		&.fw_bg_chili
+			background-color: map-get($fw-color-hot,3)
+		&.fw_border_chili
+			border: 1px solid map-get($fw-color-hot,3)
+	.fw_white
+		&.fw_text_white
+			color: #fff
+		&.fw_bg_white
+			background-color: #fff
+		&.fw_border_white
+			border: 1px solid #fff
+
+	// 	DISPLAY LIST ---------------------------------------------------------------------
+	.fw_enable_bullet
+		ul
+			li 
+				list-style-type: circle
+				font-size: 12pt
+	// 	FIRST CHARACTER ---------------------------------------------------------------------
+	.fw_first_char
+		h1::first-letter,
+		h2::first-letter,
+		h3::first-letter,
+		h4::first-letter,
+		h5::first-letter,
+		h6::first-letter
+			font-size: 60pt
+
+	// 	BEFORE + AFTER ---------------------------------------------------------------------
+	.fw_before_after
+		&:before,
+		&:after
+			display: block
+			content: ''
+			position: absolute
+			width: 100%
+			height: 100%
+			background-color: #000
+			top: 0
+			left: 0
+			opacity: 0
+
+	// 	SECTION ---------------------------------------------------------------------
+	.fw_section_wrap
+		.section_carousel__fw_section_wrap
+			width: 100%
+			overflow: hidden
+			position: relative
+			@extend .fw_clear_float_parent
+			ul
+				margin-left: 0
+				margin-right: 0
+				li
+					padding-left: 0
+					padding-right: 0
+					width: 33.33% !important
+					padding: 0 30px
+	

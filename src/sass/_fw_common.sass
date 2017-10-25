@@ -1,0 +1,93 @@
+@import functions
+@import map-get
+@import fw_ola_animate_common
++exports("fw_common")
+	*
+		margin: 0
+		padding: 0
+		font-family: map-get($fw-font-calibri,1)
+		box-sizing: border-box
+		-webkit-box-sizing: border-box
+		-moz-box-sizing: border-box
+		-ms-box-sizing: border-box
+		-o-box-sizing: border-box
+		::-moz-selection
+			background-color: #f6c6c5
+			color: #fff
+		::selection
+			background-color: #f6c6c5
+			color: #fff
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6
+		font-family: map-get($fw-font-calibri,1)
+	img[src$=".gif"],
+	img[src$=".png"]
+		image-rendering: -moz-crisp-edges/* Firefox */
+		image-rendering:   -o-crisp-edges/* Opera */
+		image-rendering: -webkit-optimize-contrast/* Webkit (non-standard naming) */
+		image-rendering: crisp-edges
+		-ms-interpolation-mode: nearest-neighbor/* IE (non-standard property) */
+	*
+		scrollbar-base-color: #C0C0C0
+		scrollbar-base-color: #C0C0C0
+		scrollbar-3dlight-color: #C0C0C0
+		scrollbar-highlight-color: #C0C0C0
+		scrollbar-track-color: #EBEBEB
+		scrollbar-arrow-color: black
+		scrollbar-shadow-color: #C0C0C0
+		scrollbar-dark-shadow-color: #C0C0C0
+		::-webkit-scrollbar
+			width: 15px
+			height: 10px
+			@extend .fw_transition_effect_0th
+		::-webkit-scrollbar-button
+			background-color: #666
+		::-webkit-scrollbar-track
+			background-color: #999
+		::-webkit-scrollbar-track-piece
+			background-color: #ffffff
+		::-webkit-scrollbar-thumb
+			height: 50px
+			background-color: #666
+		::-webkit-scrollbar-corner
+			background-color: #999
+		::-webkit-resizer
+			background-color: #666
+	a
+		font-family: map-get($fw-font-museo,1)
+		color: map-get($fw-color-dark,1)
+		text-decoration: none
+	select,
+	input,
+	li,
+	blockquote
+		font-family: map-get($fw-font-segoe, 1)
+	span,
+	label
+		&::-webkit-input-placeholder,
+		&::-moz-placeholder,
+		&:-ms-input-placeholder,
+		&:-moz-placeholder
+			color: map-get($fw-color-dark,2)
+	p
+		font-family: map-get($fw-font-segoe, 1)
+	ul
+		margin-top: 0
+		margin-bottom: 0
+		li
+			list-style-type: none
+		&:before
+			display: table
+			content: $fw-space
+		&:after
+			display: table
+			content: $fw-space
+	span
+		font-family: map-get($fw-font-segoe, 1)
+	input
+		box-shadow: none
+		border: none
