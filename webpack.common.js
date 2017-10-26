@@ -9,6 +9,7 @@ const publicPath = "./";
 const glob = require("glob");
 
 module.exports={
+	devtool: 'inline-source-map',
 	entry:{
 		// 'uikit': glob.sync("./src/js/fw_ui_kit/*.js"),
 		'style': "./src/js/style.js"
@@ -19,6 +20,9 @@ module.exports={
 			filename: "[name].[contenthash].min.css",
 			publicPath: publicPath
 		}),
+		new webpack.optimize.OccurrenceOrderPlugin(),
+		new webpack.HotModuleReplacementPlugin(),
+		new webpack.NoEmitOnErrorsPlugin(),
 		// new webpack.optimize.CommonsChunkPlugin({ // Prevent Duplication + keep latest verison when CHUNK HASH
 	    // 	name: ["vendor", "manifest"], // vendor libs + extracted manifest
   		// 	minChunks: Infinity,
@@ -60,7 +64,7 @@ module.exports={
 		rules:[
 			{
 			    test: /\.pug$/,
-			    loader: ['raw-loader', 'pug-html-loader']
+			    use: ['raw-loader', 'pug-html-loader']
 			},
 			{
 				test:/\.js$/,
