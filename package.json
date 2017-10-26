@@ -6,7 +6,8 @@
   "scripts": {
     "start": "nodemon --exec babel-node server.js --ignore builds/app/",
     "build:dev": "webpack --env=dev --colors --watch",
-    "build:product": "webpack --env=prod"
+    "build:product": "webpack --env=prod",
+    "serve": "nodemon server.js --ignore --colors components"
   },
   "author": "Anh(Robert)T. NGUYEN",
   "license": "MIT",
@@ -29,6 +30,7 @@
     "prop-types": "^15.5.10",
     "pug": "^2.0.0-rc.3",
     "pug-html-loader": "^1.1.5",
+    "pug-loader": "^2.3.0",
     "raw-loader": "^0.5.1",
     "rimraf": "^2.6.2",
     "source-map-loader": "^0.2.1",
@@ -36,8 +38,9 @@
     "url-loader": "^0.6.2",
     "webpack": "^3.3.0",
     "webpack-chunk-hash": "^0.4.0",
-    "webpack-dev-middleware": "^1.11.0",
+    "webpack-dev-middleware": "^1.12.0",
     "webpack-dev-server": "^2.5.1",
+    "webpack-hot-middleware": "^2.20.0",
     "webpack-manifest-plugin": "^1.2.1",
     "webpack-merge": "^4.1.0"
   },
