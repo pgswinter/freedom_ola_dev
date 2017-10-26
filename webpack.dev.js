@@ -17,5 +17,11 @@ module.exports = Merge(CommonConfig, {
 		filename: '[name].bundle.js',
 		publicPath: publicPath, // Permisson access at URL
 		// sourceMapFilename: '[name].map'
+	},
+	devServer:{
+		contentBase: path.join(__dirname,'/builds/app/'),
+		compress: true,
+		starts: "error-only",
+		open: true
 	}
 })
