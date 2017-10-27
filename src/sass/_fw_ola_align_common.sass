@@ -1,5 +1,6 @@
 // placement of frame
 @import map-get
+@import responsive_for_all
 +exports("fw_ola_align_common")
 	// 	ALIGN VIA OZ AXIS ---------------------------------------------------------------------
 	.fw_index_human
@@ -43,7 +44,7 @@
 		padding: 100px 0
 
 	.fw_padding_xs_all
-		padding: 5px
+		padding: 8px
 	.fw_padding_sm_all
 		padding: 15px
 	.fw_padding_md_all
@@ -54,7 +55,7 @@
 		padding: 60px
 
 	.fw_padding_right_xs
-		padding-right: 5px
+		padding-right: 3px
 	.fw_padding_right_sm
 		padding-right: 15px
 	.fw_padding_right_smd
@@ -67,13 +68,13 @@
 		padding-right: 60px
 
 	.fw_padding_left_xs
-		padding-left: 5px
+		padding-left: 3px
 	.fw_padding_left_sm
 		padding-left: 15px
-	.fw_padding_right_smd
+	.fw_padding_left_smd
 		padding-left: 20px
 	.fw_padding_left_md
-		padding-left: 30px
+		padding-left: 25px
 	.fw_padding_left_lg
 		padding-left: 48px
 	.fw_padding_left_lx
@@ -84,9 +85,9 @@
 	.fw_padding_top_sm
 		padding-top: 15px
 	.fw_padding_top_smd
-		padding-left: 20px
+		padding-top: 28px
 	.fw_padding_top_md
-		padding-top: 30px
+		padding-top: 25px
 	.fw_padding_top_lg
 		padding-top: 48px
 	.fw_padding_top_lx
@@ -96,14 +97,66 @@
 		padding-bottom: 5px
 	.fw_padding_bottom_sm
 		padding-bottom: 15px
-	.fw_padding_right_smd
-		padding-bottom: 20px
+	.fw_padding_bottom_smd
+		padding-bottom: 28px
 	.fw_padding_bottom_md
 		padding-bottom: 30px
 	.fw_padding_bottom_lg
 		padding-bottom: 48px
 	.fw_padding_bottom_lx
 		padding-bottom: 60px
+
+	.fw_padding_pc_right_xs
+		padding-right: 1%
+	.fw_padding_pc_right_sm
+		padding-right: 2%
+	.fw_padding_pc_right_smd
+		padding-left: 3%
+	.fw_padding_pc_right_md
+		padding-right: 5%
+	.fw_padding_pc_right_lg
+		padding-right: 7%
+	.fw_padding_pc_right_lx
+		padding-right: 10%
+
+	.fw_padding_pc_left_xs
+		padding-left: 1%
+	.fw_padding_pc_left_sm
+		padding-left: 2%
+	.fw_padding_pc_left_smd
+		padding-left: 3%
+	.fw_padding_pc_left_md
+		padding-left: 5%
+	.fw_padding_pc_left_lg
+		padding-left: 7%
+	.fw_padding_pc_left_lx
+		padding-left: 10%
+
+	.fw_padding_pc_top_xs
+		padding-top: 1%
+	.fw_padding_pc_top_sm
+		padding-top: 2%
+	.fw_padding_pc_top_smd
+		padding-top: 3%
+	.fw_padding_pc_top_md
+		padding-top: 5%
+	.fw_padding_pc_top_lg
+		padding-top: 7%
+	.fw_padding_pc_top_lx
+		padding-top: 10%
+
+	.fw_padding_pc_bottom_xs
+		padding-bottom: 1%
+	.fw_padding_pc_bottom_sm
+		padding-bottom: 2%
+	.fw_padding_pc_bottom_smd
+		padding-bottom: 3%
+	.fw_padding_pc_bottom_md
+		padding-bottom: 5%
+	.fw_padding_pc_bottom_lg
+		padding-bottom: 7%
+	.fw_padding_pc_bottom_lx
+		padding-bottom: 10%
 
 	// 	ALIGN MARGIN ---------------------------------------------------------------------
 	.fw_margin_bottom
@@ -127,7 +180,7 @@
 	.fw_margin_right_smd
 		margin-right: 20px
 	.fw_margin_right_md
-		margin-right: 30px
+		margin-right: 25px
 	.fw_margin_right_lg
 		margin-right: 48px
 	.fw_margin_right_lx
@@ -140,11 +193,39 @@
 	.fw_margin_left_smd
 		margin-left: 20px
 	.fw_margin_left_md
-		margin-left: 30px
+		margin-left: 25px
 	.fw_margin_left_lg
 		margin-left: 48px
 	.fw_margin_left_lx
 		margin-left: 60px
+	
+	.fw_margin_top_xs
+		margin-top: 5px
+	.fw_margin_top_sm
+		margin-top: 15px
+	.fw_margin_top_smd
+		margin-left: 20px
+	.fw_margin_top_md
+		margin-top: 30px
+	.fw_margin_top_lg
+		margin-top: 48px
+	.fw_margin_top_lx
+		margin-top: 60px
+
+	.fw_margin_bottom_xs
+		margin-bottom: 5px
+	.fw_margin_bottom_sm
+		margin-bottom: 15px
+	.fw_margin_bottom_smd
+		margin-bottom: 20px
+	.fw_margin_bottom_md
+		margin-bottom: 30px
+	.fw_margin_bottom_lg
+		margin-bottom: 48px
+	.fw_margin_bottom_lg_god
+		margin-bottom: 48px !important
+	.fw_margin_bottom_lx
+		margin-bottom: 60px	
 
 	// 	CLEAR
 	.fw_clear
@@ -331,3 +412,16 @@
 		border-radius: 30px
 	.fw_roud_fifty
 		border-radius: 50%
+
+	//  TEXT SIZE
+	@media #{$fw-min-1024}
+		.fw_text_size_xlg_0th
+			font-size: 38px
+		.fw_text_size_xlg_1st
+			font-size: 9pt
+		.fw_text_size_xlg_2nd
+			font-size: 12px
+		.fw_text_size_xlg_3rd
+			font-size: 8px
+	@media #{$fw-max-1024}
+	@media #{$fw-max-768}
