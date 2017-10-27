@@ -1,120 +1,271 @@
 @import map-get
 @import responsive_for_all
 +exports("fw_ola_grid_common")
-	.fw_container_1st
-		width: 1200px
-		margin: 0 auto
-	.fw_container_2nd
-		width: 1024px
-		margin: 0 auto
-	.fw_container_3rd
-		width: 480px
-		margin: 0 auto
-	.fw_container_4th
-		width: 320px
-		margin: 0 auto
-	div[class*="_col_lg_"],
-	div[class^="_col_lg_"]
+	div[class*="_col_"],
+	div[class^="_col_"]
 		float: left
-	@media #{$fw-max-1366}
 	@media #{$fw-min-1024}
-		.fw_col_lg_12
+		.fw_container_0th
+			width: 1200px
+			margin: 0 auto
+		.fw_col_lg_12,
+		.fw_col_lg_10s
 			width: 100%
+			float: left
 		.fw_col_lg_11
 			width: 91.67%
+			float: left
+		.fw_col_lg_9s
+			width: 90%
+			float: left
 		.fw_col_lg_10
 			width: 83.33%
+			float: left
+		.fw_col_lg_8s
+			width: 80%
+			float: left
 		.fw_col_lg_9
 			width: 75%
+			float: left
+		.fw_col_lg_7s
+			width: 70%
+			float: left
 		.fw_col_lg_8
 			width: 66.67%
+			float: left
+		.fw_col_lg_6s
+			width: 60%
+			float: left
 		.fw_col_lg_7
 			width: 58.33%
-		.fw_col_lg_6
+			float: left
+		.fw_col_lg_6,
+		.fw_col_lg_5s
 			width: 50%
+			float: left
 		.fw_col_lg_5
 			width: 41.67%
+			float: left
+		.fw_col_lg_4s
+			width: 40%
+			float: left
 		.fw_col_lg_4
-			width: 25%
-		.fw_col_lg_3
 			width: 33.33%
+			float: left
+		.fw_col_lg_3s
+			width: 30%
+			float: left
+		.fw_col_lg_3
+			width: 25%
+			float: left
+		.fw_col_lg_2s
+			width: 20%
+			float: left
 		.fw_col_lg_2
 			width: 16.67%
+			float: left
+		.fw_col_lg_1s
+			width: 10%
+			float: left
 		.fw_col_lg_1
 			width: 8.33%
+			float: left
 	@media #{$fw-max-1024}
-		.fw_col_md_12
+		.fw_container_1st
+			width: 1024px
+			margin: 0 auto
+		.fw_col_md_12,
+		.fw_col_md_10s
 			width: 100%
+			float: left
 		.fw_col_md_11
 			width: 91.67%
+			float: left
+		.fw_col_md_9s
+			width: 90%
+			float: left
 		.fw_col_md_10
 			width: 83.33%
+			float: left
+		.fw_col_md_8s
+			width: 81%
+			float: left
 		.fw_col_md_9
 			width: 75%
+			float: left
+		.fw_col_md_7s
+			width: 70%
+			float: left
 		.fw_col_md_8
 			width: 66.67%
+			float: left
+		.fw_col_md_6s
+			width: 60%
+			float: left
 		.fw_col_md_7
 			width: 58.33%
-		.fw_col_md_6
+			float: left
+		.fw_col_md_6,
+		.fw_col_md_5s
 			width: 50%
+			float: left
 		.fw_col_md_5
 			width: 41.67%
+			float: left
+		.fw_col_md_4s
+			width: 40%
+			float: left
 		.fw_col_md_4
-			width: 25%
-		.fw_col_md_3
 			width: 33.33%
+			float: left
+		.fw_col_md_3s
+			width: 30%
+			float: left
+		.fw_col_md_3
+			width: 25%
+			float: left
+		.fw_col_md_2s
+			width: 20%
+			float: left
 		.fw_col_md_2
 			width: 16.67%
+			float: left
+		.fw_col_md_1s
+			width: 10%
+			float: left
 		.fw_col_md_1
 			width: 8.33%
-	@media #{$fw-max-768}
-		.fw_col_sm_12
+			float: left
+	@media #{$fw-max-800}
+		.fw_container_2nd
 			width: 100%
+	@media #{$fw-max-768}
+		.fw_col_sm_12,
+		.fw_col_sm_10s
+			width: 100%
+			float: left
 		.fw_col_sm_11
 			width: 91.67%
+			float: left
+		.fw_col_sm_9s
+			width: 90%
+			float: left
 		.fw_col_sm_10
 			width: 83.33%
+			float: left
+		.fw_col_sm_8s
+			width: 80%
+			float: left
 		.fw_col_sm_9
 			width: 75%
+			float: left
+		.fw_col_sm_7s
+			width: 70%
+			float: left
 		.fw_col_sm_8
 			width: 66.67%
+			float: left
+		.fw_col_sm_6s
+			width: 60%
+			float: left
 		.fw_col_sm_7
 			width: 58.33%
-		.fw_col_sm_6
+			float: left
+		.fw_col_sm_6,
+		.fw_col_sm_5s
 			width: 50%
+			float: left
 		.fw_col_sm_5
 			width: 41.67%
+			float: left
+		.fw_col_sm_4s
+			width: 40%
+			float: left
 		.fw_col_sm_4
-			width: 25%
-		.fw_col_sm_3
 			width: 33.33%
+			float: left
+		.fw_col_sm_3s
+			width: 30%
+			float: left
+		.fw_col_sm_3
+			width: 25%
+			float: left
+		.fw_col_sm_2s
+			width: 20%
+			float: left
 		.fw_col_sm_2
 			width: 16.67%
+			float: left
+		.fw_col_sm_1s
+			width: 10%
+			float: left
 		.fw_col_sm_1
 			width: 8.33%
+			float: left
 	@media #{$fw-max-568}
-		.fw_col_xs_12
+		.fw_col_xs_12,
+		.fw_col_xs_10s
 			width: 100%
+			float: left
 		.fw_col_xs_11
 			width: 91.67%
+			float: left
+		.fw_col_xs_9s
+			width: 90%
+			float: left
 		.fw_col_xs_10
 			width: 83.33%
+			float: left
+		.fw_col_xs_8s
+			width: 80%
+			float: left
 		.fw_col_xs_9
 			width: 75%
+			float: left
+		.fw_col_xs_7s
+			width: 70%
+			float: left
 		.fw_col_xs_8
 			width: 66.67%
+			float: left
+		.fw_col_xs_6s
+			width: 60%
+			float: left
 		.fw_col_xs_7
 			width: 58.33%
-		.fw_col_xs_6
+			float: left
+		.fw_col_xs_6,
+		.fw_col_xs_5s
 			width: 50%
+			float: left
 		.fw_col_xs_5
 			width: 41.67%
+			float: left
+		.fw_col_xs_4s
+			width: 20%
+			float: left
+		.fw_col_xs_4s
+			width: 40%
+			float: left
 		.fw_col_xs_4
-			width: 25%
-		.fw_col_xs_3
 			width: 33.33%
+			float: left
+		.fw_col_xs_3s
+			width: 30%
+			float: left
+		.fw_col_xs_3
+			width: 25%
+			float: left
+		.fw_col_xs_1s
+			width: 20%
+			float: left
 		.fw_col_xs_2
 			width: 16.67%
+			float: left
+		.fw_col_xs_1s
+			width: 10%
+			float: left
 		.fw_col_xs_1
 			width: 8.33%
+			float: left
 	@media #{$fw-max-320}

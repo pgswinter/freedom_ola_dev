@@ -1,0 +1,113 @@
+@import fw_style
+@import map-get
++exports("fw_home_left")
+	.fw_home_left__fw_home
+		@extend .fw_col_lg_2s
+		.fw_logo__fw_home_left
+			@extend .fw_margin_bottom_smd
+		.fw_notification__fw_home_left
+			.img_wrap__fw_notification
+				position: relative
+				label
+					@extend .fw_text_size_xlg_1st
+					@extend .fw_margin_left_md
+					font-weight: bold
+				img
+					@extend .fw_center_vertical_0th
+			.list_item__fw_notification
+				ul
+					@extend .fw_margin_top_sm
+					li
+						height: 40px
+						position: relative
+						a
+							position: relative
+							width: 18px
+							height: 18px
+							display: block
+							img
+								display: block
+								@extend .fw_god_center
+							label
+								width: 15px
+								height: 15px
+								border-radius: 50%
+								background-color: map-get($fw-color-hot,1)
+								text-align: center
+								display: block
+								color: #fff
+								line-height: 2
+								position: absolute
+								top: -50%
+								right: -25%
+								@extend .fw_text_size_xlg_3rd
+		.fw_trending_articles__fw_home_left
+			.title__fw_trending_article
+				@extend .fw_title_8th
+				@extend .fw_margin_bottom_smd
+				h2
+					@extend .fw_text_size_xlg_2nd
+		article
+			@extend .fw_clear_float_parent
+			@extend .fw_roud_xs
+			@extend .fw_margin_bottom_xs
+			border: 1px solid map-get($fw-color-dark,3)
+			.title__fw_trending_articles
+				position: relative
+				@extend .fw_padding_xs_all
+				@extend .fw_clear_float_parent
+				.left_site__title
+					width: 54%
+					position: relative
+					float: left
+					.img_wrap__left_site
+						@extend .fw_avatar
+						@extend .fw_text_size_xlg_2nd
+						a
+							width: 100%
+							position: relative
+							img
+								width: 17px
+								height: 17px
+							label
+								color: map-get($fw-color_cold,3)
+								font-weight: bold
+				.right_site__title
+					width: 46%
+					position: relative
+					float: left
+					.img_wrap__right_site
+						display: inline-block
+						@extend .fw_text_size_xlg_2nd
+						@extend .fw_margin_right_xs
+			.main_site__fw_trending_articles
+				.img_wrap__main_site
+					@extend .fw_img_wrap_0th
+				p
+					@extend .fw_padding_xs_all
+					color: map-get($fw-color-dark,2)
+					@extend .fw_text_size_xlg_2nd
+					line-height: 1
+			.foot__fw_trending_articles
+				position: relative
+				@extend .fw_padding_xs_all
+				@extend .fw_clear_float_parent
+				.left_site__foot
+					width: 70%
+					position: relative
+					float: left
+					.img_wrap__left_site
+						display: inline-block
+						@extend .fw_text_size_xlg_2nd
+						@extend .fw_margin_right_xs
+						label,
+						span
+							@extend .fw_margin_left_xs
+				.right_site__foot
+					width: 30%
+					position: relative
+					float: left
+					.img_wrap__right_site
+						display: inline-block
+						@extend .fw_text_size_xlg_2nd
+						@extend .fw_margin_right_xs

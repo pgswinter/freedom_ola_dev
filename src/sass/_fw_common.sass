@@ -26,6 +26,7 @@
 	h5,
 	h6
 		font-weight: bold
+		color: map-get($fw-color-dark,2)
 	img[src$=".gif"],
 	img[src$=".png"]
 		image-rendering: -moz-crisp-edges/* Firefox */
@@ -60,14 +61,12 @@
 		::-webkit-resizer
 			background-color: #666
 	a
-		font-family: map-get($fw-font-museo,1)
 		color: map-get($fw-color-dark,1)
 		text-decoration: none
 	select,
 	input,
 	li,
 	blockquote
-		font-family: map-get($fw-font-segoe, 1)
 	span,
 	label
 		&::-webkit-input-placeholder,
@@ -77,6 +76,7 @@
 			color: map-get($fw-color-dark,2)
 	p
 		font-family: map-get($fw-font-segoe, 1)
+		font-size: 12pt
 	ul
 		margin-top: 0
 		margin-bottom: 0
@@ -89,7 +89,6 @@
 			display: table
 			content: $fw-space
 	span
-		font-family: map-get($fw-font-segoe, 1)
 	input
 		box-shadow: none
 		border: none

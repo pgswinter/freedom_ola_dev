@@ -1,4 +1,6 @@
+@import functions
 @import map-get
+@import fw_ola_align_common
 +exports("fw_ola_button_common")
 	.div[class*="_button"],
 	.div[class^="_button"]
@@ -8,7 +10,6 @@
 		display: block
 		&:hover
 			text-decoration: none
-
 	// 	SEARCH ---------------------------------------------------------------------
 	.fw_search_button
 		background-color: #a0a09e
@@ -349,3 +350,40 @@
 				margin-top: 7px
 			.fa-caret-up
 				display: none
+	// SWITCH  ---------------------------------------------------------------------
+	.fw_switch
+		.bar__fw_switch
+			width: 42px
+			height: 17px
+			cursor: pointer
+			@extend .fw_roud_xs
+			background-color: map-get($fw-color-dark,2)
+			border: 1px solid map-get($fw-color-dark,3)
+			position: relative
+			.on__fw_switch,
+			.off__fw_switch
+				position: absolute
+				width: 50%
+				height: 100%
+				label
+					@extend .fw_text_size_xlg_3rd
+					text-transform: uppercase
+					width: 100%
+					text-align: center
+					@extend .fw_god_center
+					color: map-get($fw-color-dark,4)
+			.on__fw_switch
+				left: 0
+			.off__fw_switch
+				right: 0
+			&:after
+				content: " "
+				width: 55%
+				height: 100%
+				background-color: map-get($fw-color-cold,1)
+				position: absolute
+				top: 0
+				right: -1px
+				@extend .fw_roud_xs
+				display: block
+				
