@@ -1,0 +1,88 @@
+@import functions
+@import fw_style
+@import map-get
+@import fw_home_left
++exports("fw_home")
+	.fw_home
+		background-color: map-get($fw-color-dark,4)
+		background: -webkit-linear-gradient(map-get($fw-color-dark,4),#fff,#fff);
+		@extend .fw_padding_right_md
+		@extend .fw_padding_left_md
+		@extend .fw_padding_top_md
+		@extend .fw_clear_float_parent
+		.fw_home_left__fw_home
+			@extend .fw_home_left__fw_home
+		.fw_home_center__fw_home
+			@extend .fw_col_lg_6s
+			@extend .fw_padding_left_md
+			.fw_add_friends__fw_home_center
+				width: 65%
+				@extend .fw_center_0th
+				@extend .fw_margin_bottom_lg_god
+				.title__fw_add_friends
+					@extend .fw_title_8th
+					@extend .fw_margin_bottom_smd
+					h2
+						@extend .fw_text_size_xlg_2nd
+				.friend_list__fw_add_friends
+					@extend .fw_clear_float_parent
+					article
+						@extend .fw_col_lg_3
+						img
+							display: block
+							@extend .fw_margin_bottom_sm
+						label,
+						span
+							@extend .fw_text_size_xlg_2nd
+							display: block
+							line-height: 1
+						label
+							font-weight: bold
+			.fw_post_status__fw_home_center
+				width: 65%
+				margin: 0 auto
+				position: relative
+				.select_type__fw_post_status
+					position: relative
+					@extend .fw_margin_bottom_xs
+					.tab_task__select_type
+						ul
+							li
+								display: inline-block
+								position: relative
+								border-left: 1px solid map-get($fw-color-dark,1)
+								@extend .fw_padding_pc_left_xs
+								@extend .fw_padding_pc_right_xs
+								&:first-child
+									border-left: none
+									padding-left: 0
+									img
+										@extend .fw_center_vertical_0th
+									label
+										@extend .fw_margin_left_smd
+								a
+									display: block
+									cursor: pointer
+									label
+										display: block
+										@extend .fw_text_size_xlg_1st
+								&.active
+									label
+										text-transform: uppercase
+										color: map-get($fw-color-cold,1)
+										font-weight: bold
+					.right_site__select_type
+						@extend .fw_center_vertical_0th
+						right: 0
+						.fw_switch
+							@extend .fw_switch
+							float: left
+						label
+							&.label__right_site
+								float: left
+								@extend .fw_margin_left_xs
+								@extend .fw_text_size_xlg_2nd
+		.fw_home_right__fw_home
+			@extend .fw_col_lg_2s
+		.fw_home_chat__fw_home
+			@extend .fw_col_lg_10s
