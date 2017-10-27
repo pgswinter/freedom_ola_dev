@@ -9,10 +9,10 @@ const publicPath = "./";
 const glob = require("glob");
 
 module.exports={
-	devtool: 'inline-source-map',
+	// devtool: 'inline-source-map',
 	entry:{
-		// 'uikit': glob.sync("./src/js/fw_ui_kit/*.js"),
-		'style': "./src/js/style.js"
+		'page': glob.sync("./src/js/*.js"),
+		// 'uikit': glob.sync("./src/js/fw_ui_kit/*.js")
 		//'vendor': glob.sync("./src/js/vendor/*.js"),
 	},
 	plugins:[
