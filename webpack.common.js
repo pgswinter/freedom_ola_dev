@@ -33,12 +33,12 @@ module.exports={
 			filename: 'index.html',
 	    	template: 'src/pug/index.pug',
 			chunksSortMode: 'dependency'
-		})/*,
+		}),
 		new HtmlWebpackPlugin({
-			filename: 'request.html',
-	    	template: 'src/pug/request.pug',
+			filename: 'career.html',
+	    	template: 'src/pug/career.pug',
 			chunksSortMode: 'dependency'
-		})*/,
+		}),
 		new webpack.ProvidePlugin({
 			$: "jquery",
 			jQuery: "jquery",
