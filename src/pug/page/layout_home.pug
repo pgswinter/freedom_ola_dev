@@ -266,99 +266,265 @@
 					label.label__right_site Công khai
 			.fw_main_input__fw_post_status
 				input(type="text", placeholder="Bạn đang nghĩ gì, Thảo?")
-				a
-					img(src="imgs/plane_icon.png", alt="plane icon")
+				.send_post__main_input
+					a
+						img(src="imgs/plane_icon.png", alt="plane icon")
 		.fw_filter_article__fw_home_center
 			nav
-				a(href="") Dòng thời gian
+				a(href="").active Dòng thời gian
 				a(href="") Bài mới
 				a(href="") Bạn bè
 				a(href="") Nhóm
 			.right_site__fw_filter_article
-				label Tìm theo
-				img(src="imgs/filter_icon.png", alt="")
+				.label_wrap__right_site
+					label Tìm theo
+					img(src="imgs/filter_icon.png", alt="")
 				.filter_hover__right_site
 					ul
-						li.latest__filter_hover
+						li
 							img(src="imgs/black_dot_icon.png", alt="bullet latest")
 							a(href="") Bài mới nhất
-						li.feature__filter_hover
+						li
 							img(src="imgs/black_dot_icon.png", alt="bullet latest")
 							a(href="") Tính năng
-						li.favourite__filter_hover
-							img(src="imgs/ưhite_dot_icon.png", alt="bullet latest")
+						li
+							img(src="imgs/white_dot_icon.png", alt="bullet latest")
 							a(href="") Sở thích
-						li.pin__filter_hover
+						li
 							img(src="imgs/black_dot_icon.png", alt="bullet latest")
 							a(href="") Pin
-		.fw_article_post__fw_home_center
-			.fw_content__fw_article_post
-				img(src="imgs/a1.jpg", alt="posted photo")
-				p Người Việt ăn muối nhiều gấp đôi mức khuyến nghị. Trung bình một người trưởng thành tiêu thụ 9,4 g muối mỗi ngày, gấp hai lần so khuyến nghị của Tổ chức Y tế Thế giới.
-				a(href="") Đọc thêm +
-			.fw_comment_right__fw_article_post
-				.author__fw_comment_right
-					img(src="imgs/avatar_icon.jpg", alt="author's article")
-					label Nhân Tống.
-						span Vừa mới chia sẻ 15 phút trước
-				.comment__fw_comment_right
-					.block__comment
-						img(src="imgs/avatar_icon.jpg", alt="author's article")
-						label Phuong Ly
-						p Thạc sĩ Ngô Thị Hà Phương, Trung tâm Giáo dục Truyền thông Dinh dưỡng, Viện Dinh dưỡng Quốc gia cho biết, mô hình ăn uống của người dân  Việt Nam thay đổi theo chiều hướng tăng tiêu thụ chất béo, đạm, đặc biệt là tiêu thụ dư thừa muối. Gần 60% người dân tiêu thụ lượng muối cao gấp hai lần lượng muối được khuyên dùng hàng ngày. Tổ chức Y tế Thế giới (WHO) khuyến nghị, một người trưởng thành nên sử dụng dưới 5 g muối mỗi ngày, tuy nhiên một bát phở hoặc bún có thể có đến 4-5 g muối.
-					.block__comment
-						img(src="imgs/avatar_icon.jpg", alt="author's article")
-						label Phuong Ly
-						p Thạc sĩ Ngô Thị Hà Phương, Trung tâm Giáo dục Truyền thông Dinh dưỡng, Viện Dinh dưỡng Quốc gia cho biết, mô hình ăn uống của người dân  Việt Nam thay đổi theo chiều hướng tăng tiêu thụ chất béo, đạm, đặc biệt là tiêu thụ dư thừa muối. Gần 60% người dân tiêu thụ lượng muối cao gấp hai lần lượng muối được khuyên dùng hàng ngày. Tổ chức Y tế Thế giới (WHO) khuyến nghị, một người trưởng thành nên sử dụng dưới 5 g muối mỗi ngày, tuy nhiên một bát phở hoặc bún có thể có đến 4-5 g muối.
-					.block__comment
-						img(src="imgs/avatar_icon.jpg", alt="author's article")
-						label Phuong Ly
-						p Thạc sĩ Ngô Thị Hà Phương, Trung tâm Giáo dục Truyền thông Dinh dưỡng, Viện Dinh dưỡng Quốc gia cho biết, mô hình ăn uống của người dân  Việt Nam thay đổi theo chiều hướng tăng tiêu thụ chất béo, đạm, đặc biệt là tiêu thụ dư thừa muối. Gần 60% người dân tiêu thụ lượng muối cao gấp hai lần lượng muối được khuyên dùng hàng ngày. Tổ chức Y tế Thế giới (WHO) khuyến nghị, một người trưởng thành nên sử dụng dưới 5 g muối mỗi ngày, tuy nhiên một bát phở hoặc bún có thể có đến 4-5 g muối.
-					.block__comment
-						img(src="imgs/avatar_icon.jpg", alt="author's article")
-						label Phuong Ly
-						p Thạc sĩ Ngô Thị Hà Phương, Trung tâm Giáo dục Truyền thông Dinh dưỡng, Viện Dinh dưỡng Quốc gia cho biết, mô hình ăn uống của người dân  Việt Nam thay đổi theo chiều hướng tăng tiêu thụ chất béo, đạm, đặc biệt là tiêu thụ dư thừa muối. Gần 60% người dân tiêu thụ lượng muối cao gấp hai lần lượng muối được khuyên dùng hàng ngày. Tổ chức Y tế Thế giới (WHO) khuyến nghị, một người trưởng thành nên sử dụng dưới 5 g muối mỗi ngày, tuy nhiên một bát phở hoặc bún có thể có đến 4-5 g muối.
-					.block__comment
-						img(src="imgs/avatar_icon.jpg", alt="author's article")
-						label Phuong Ly
-						p Thạc sĩ Ngô Thị Hà Phương, Trung tâm Giáo dục Truyền thông Dinh dưỡng, Viện Dinh dưỡng Quốc gia cho biết, mô hình ăn uống của người dân  Việt Nam thay đổi theo chiều hướng tăng tiêu thụ chất béo, đạm, đặc biệt là tiêu thụ dư thừa muối. Gần 60% người dân tiêu thụ lượng muối cao gấp hai lần lượng muối được khuyên dùng hàng ngày. Tổ chức Y tế Thế giới (WHO) khuyến nghị, một người trưởng thành nên sử dụng dưới 5 g muối mỗi ngày, tuy nhiên một bát phở hoặc bún có thể có đến 4-5 g muối.
-				.counting__fw_comment_right
-					label 4/16
-					a(href="")
-						img(src="imgs/caret_down_icon.png", alt="view more comment")
-			.foot_article__fw_article_post
-				.left__foot_article
-					ul
-						li
-							a(href="")
-						li
-							a(href="")
-				.right__foot_article
-					textarea(name="", cols="30", rows="10")
-					.edit_item__right
-						.left
-							a(href="")
-								img(src="imgs/submit_message_button.png", alt="background text")
-						.right
-						ul
-							li
+		.fw_post_area__fw_home_center
+			.fw_article_post__fw_post_area
+				.fw_content__fw_article_post
+					.img_wrap__fw_content
+						img(src="photos/a1.jpg", alt="posted photo")
+					.summary__fw_content
+						p Người Việt ăn muối nhiều gấp đôi mức khuyến nghị. Trung bình một người trưởng thành tiêu thụ 9,4 g muối mỗi ngày, gấp hai lần so khuyến nghị của Tổ chức Y tế Thế giới...
+					.behavior_wrap__fw_content
+						.read_more__behavior_wrap
+							a(href="") Đọc thêm +
+						.like_share__behavior_wrap
+							.img_wrap__right_site
 								a
-									img(src="imgs/link_icon.png", alt="link")
-							li
+									img(src="imgs/heart_icon.png", alt="heart icon")
+									label 244
+							.img_wrap__right_site
 								a
-									img(src="imgs/smile_icon.png", alt="smile")
-							li
+									img(src="imgs/share_white_icon.png", alt="share icon")
+									label 55
+									span  Chia sẻ
+				.fw_comment_right__fw_article_post
+					.author__fw_comment_right
+						a(href="")
+							img(src="imgs/avatar_icon.png", alt="author's article")
+							label Nhân Tống.
+								span  Vừa mới chia sẻ 15 phút trước
+						.comment_display__fw_comment_right
+							a(href="")
+								img(src="imgs/comment_icon.png", alt="comment icon")
+								label 96
+									span  Bình luận
+					.comment__fw_comment_right
+						.block__comment
+							a(href="")
+								img(src="imgs/avatar_icon.png", alt="author's article")
+								label Phuong Ly
+							p Thạc sĩ Ngô Thị Hà Phương, Trung tâm Giáo dục Truyền thông Dinh dưỡng, Viện Dinh dưỡng Quốc gia cho biết, mô hình ăn uống của người dân  Việt Nam thay đổi theo chiều hướng tăng tiêu thụ chất béo, đạm, đặc biệt là tiêu thụ dư thừa muối. Gần 60% người dân tiêu thụ lượng muối cao gấp hai lần lượng muối được khuyên dùng hàng ngày. Tổ chức Y tế Thế giới (WHO) khuyến nghị, một người trưởng thành nên sử dụng dưới 5 g muối mỗi ngày, tuy nhiên một bát phở hoặc bún có thể có đến 4-5 g muối. Thạc sĩ Ngô Thị Hà Phương, Trung tâm Giáo dục Truyền thông Dinh dưỡng, Viện Dinh dưỡng Quốc gia cho biết, mô hình ăn uống của người dân  Việt Nam thay đổi theo chiều hướng tăng tiêu thụ chất béo, đạm, đặc biệt là tiêu thụ dư thừa muối. Gần 60% người dân tiêu thụ lượng muối cao gấp hai lần lượng muối được khuyên dùng hàng ngày. Tổ chức Y tế Thế giới (WHO) khuyến nghị, một người trưởng thành nên sử dụng dưới 5 g muối mỗi ngày, tuy nhiên một bát phở hoặc bún có thể có đến 4-5 g muối...
+								a(href="") Đọc thêm +
+
+						.block__comment
+							a(href="")
+								img(src="imgs/avatar_icon.png", alt="author's article")
+								label Phuong Ly
+							p Thạc sĩ Ngô Thị Hà Phương, Trung tâm Giáo dục Truyền thông Dinh dưỡng, Viện Dinh dưỡng Quốc gia cho biết, mô hình ăn uống của người dân  Việt Nam thay đổi theo chiều hướng tăng tiêu thụ chất béo, đạm, đặc biệt là tiêu thụ dư thừa muối. Gần 60% người dân tiêu thụ lượng muối cao gấp hai lần lượng muối được khuyên dùng hàng ngày. Tổ chức Y tế Thế giới (WHO) khuyến nghị, một người trưởng thành nên sử dụng dưới 5 g muối mỗi ngày, tuy nhiên một bát phở hoặc bún có thể có đến 4-5 g muối...
+								a(href="") Đọc thêm +
+						.block__comment
+							a(href="")
+								img(src="imgs/avatar_icon.png", alt="author's article")
+								label Phuong Ly
+							p Thạc sĩ Ngô Thị Hà Phương, Trung tâm Giáo dục Truyền thông Dinh dưỡng, Viện Dinh dưỡng Quốc gia cho biết, mô hình ăn uống của người dân  Việt Nam thay đổi theo chiều hướng tăng tiêu thụ chất béo, đạm, đặc biệt là tiêu thụ dư thừa muối. Gần 60% người dân tiêu thụ lượng muối cao gấp hai lần lượng muối được khuyên dùng hàng ngày. Tổ chức Y tế Thế giới (WHO) khuyến nghị, một người trưởng thành nên sử dụng dưới 5 g muối mỗi ngày, tuy nhiên một bát phở hoặc bún có thể có đến 4-5 g muối...
+								a(href="") Đọc thêm +
+						.block__comment
+							a(href="")
+								img(src="imgs/avatar_icon.png", alt="author's article")
+								label Phuong Ly
+							p Thạc sĩ Ngô Thị Hà Phương, Trung tâm Giáo dục Truyền thông Dinh dưỡng, Viện Dinh dưỡng Quốc gia cho biết, mô hình ăn uống của người dân  Việt Nam thay đổi theo chiều hướng tăng tiêu thụ chất béo, đạm, đặc biệt là tiêu thụ dư thừa muối. Gần 60% người dân tiêu thụ lượng muối cao gấp hai lần lượng muối được khuyên dùng hàng ngày. Tổ chức Y tế Thế giới (WHO) khuyến nghị, một người trưởng thành nên sử dụng dưới 5 g muối mỗi ngày, tuy nhiên một bát phở hoặc bún có thể có đến 4-5 g muối.
+						.block__comment
+							a(href="")
+								img(src="imgs/avatar_icon.png", alt="author's article")
+								label Phuong Ly
+							p Thạc sĩ Ngô Thị Hà Phương, Trung tâm Giáo dục Truyền thông Dinh dưỡng, Viện Dinh dưỡng Quốc gia cho biết, mô hình ăn uống của người dân  Việt Nam thay đổi theo chiều hướng tăng tiêu thụ chất béo, đạm, đặc biệt là tiêu thụ dư thừa muối. Gần 60% người dân tiêu thụ lượng muối cao gấp hai lần lượng muối được khuyên dùng hàng ngày. Tổ chức Y tế Thế giới (WHO) khuyến nghị, một người trưởng thành nên sử dụng dưới 5 g muối mỗi ngày, tuy nhiên một bát phở hoặc bún có thể có đến 4-5 g muối.
+						.block__comment
+							a(href="")
+								img(src="imgs/avatar_icon.png", alt="author's article")
+								label Phuong Ly
+							p Thạc sĩ Ngô Thị Hà Phương, Trung tâm Giáo dục Truyền thông Dinh dưỡng, Viện Dinh dưỡng Quốc gia cho biết, mô hình ăn uống của người dân  Việt Nam thay đổi theo chiều hướng tăng tiêu thụ chất béo, đạm, đặc biệt là tiêu thụ dư thừa muối. Gần 60% người dân tiêu thụ lượng muối cao gấp hai lần lượng muối được khuyên dùng hàng ngày. Tổ chức Y tế Thế giới (WHO) khuyến nghị, một người trưởng thành nên sử dụng dưới 5 g muối mỗi ngày, tuy nhiên một bát phở hoặc bún có thể có đến 4-5 g muối.
+						.block__comment
+							a(href="")
+								img(src="imgs/avatar_icon.png", alt="author's article")
+								label Phuong Ly
+							p Thạc sĩ Ngô Thị Hà Phương, Trung tâm Giáo dục Truyền thông Dinh dưỡng, Viện Dinh dưỡng Quốc gia cho biết, mô hình ăn uống của người dân  Việt Nam thay đổi theo chiều hướng tăng tiêu thụ chất béo, đạm, đặc biệt là tiêu thụ dư thừa muối. Gần 60% người dân tiêu thụ lượng muối cao gấp hai lần lượng muối được khuyên dùng hàng ngày. Tổ chức Y tế Thế giới (WHO) khuyến nghị, một người trưởng thành nên sử dụng dưới 5 g muối mỗi ngày, tuy nhiên một bát phở hoặc bún có thể có đến 4-5 g muối.
+						.block__comment
+							a(href="")
+								img(src="imgs/avatar_icon.png", alt="author's article")
+								label Phuong Ly
+							p Thạc sĩ Ngô Thị Hà Phương, Trung tâm Giáo dục Truyền thông Dinh dưỡng, Viện Dinh dưỡng Quốc gia cho biết, mô hình ăn uống của người dân  Việt Nam thay đổi theo chiều hướng tăng tiêu thụ chất béo, đạm, đặc biệt là tiêu thụ dư thừa muối. Gần 60% người dân tiêu thụ lượng muối cao gấp hai lần lượng muối được khuyên dùng hàng ngày. Tổ chức Y tế Thế giới (WHO) khuyến nghị, một người trưởng thành nên sử dụng dưới 5 g muối mỗi ngày, tuy nhiên một bát phở hoặc bún có thể có đến 4-5 g muối.
+						.block__comment
+							a(href="")
+								img(src="imgs/avatar_icon.png", alt="author's article")
+								label Phuong Ly
+							p Thạc sĩ Ngô Thị Hà Phương, Trung tâm Giáo dục Truyền thông Dinh dưỡng, Viện Dinh dưỡng Quốc gia cho biết, mô hình ăn uống của người dân  Việt Nam thay đổi theo chiều hướng tăng tiêu thụ chất béo, đạm, đặc biệt là tiêu thụ dư thừa muối. Gần 60% người dân tiêu thụ lượng muối cao gấp hai lần lượng muối được khuyên dùng hàng ngày. Tổ chức Y tế Thế giới (WHO) khuyến nghị, một người trưởng thành nên sử dụng dưới 5 g muối mỗi ngày, tuy nhiên một bát phở hoặc bún có thể có đến 4-5 g muối.
+						.block__comment
+							a(href="")
+								img(src="imgs/avatar_icon.png", alt="author's article")
+								label Phuong Ly
+							p Thạc sĩ Ngô Thị Hà Phương, Trung tâm Giáo dục Truyền thông Dinh dưỡng, Viện Dinh dưỡng Quốc gia cho biết, mô hình ăn uống của người dân  Việt Nam thay đổi theo chiều hướng tăng tiêu thụ chất béo, đạm, đặc biệt là tiêu thụ dư thừa muối. Gần 60% người dân tiêu thụ lượng muối cao gấp hai lần lượng muối được khuyên dùng hàng ngày. Tổ chức Y tế Thế giới (WHO) khuyến nghị, một người trưởng thành nên sử dụng dưới 5 g muối mỗi ngày, tuy nhiên một bát phở hoặc bún có thể có đến 4-5 g muối.
+					.counting__fw_comment_right
+						label 4/16
+						a(href="")
+							img(src="imgs/caret_down_icon.png", alt="view more comment")
+					.foot_article__fw_comment_right
+						.right__foot_article
+							input(type="text", placeholder="Chia sẻ suy nghĩ của bạn...")
+							.edit_item__right
+								.left__edit_item
+									a(href="")
+										img(src="imgs/submit_message_button.png", alt="background text")
+								.right__edit_item
+									ul
+										li
+											a
+												img(src="imgs/link_icon.png", alt="link")
+										li
+											a
+												img(src="imgs/smile_icon.png", alt="smile")
+										li
+											a
+												img(src="imgs/attach_file_icon.png", alt="attached")
+					.fw_display_comment
+						img(src="imgs/", alt="")
+			.fw_article_post__fw_post_area
+				.fw_content__fw_article_post
+					.img_wrap__fw_content
+						img(src="photos/a2.jpg", alt="posted photo")
+					.summary__fw_content
+						p Người Việt ăn muối nhiều gấp đôi mức khuyến nghị. Trung bình một người trưởng thành tiêu thụ 9,4 g muối mỗi ngày, gấp hai lần so khuyến nghị của Tổ chức Y tế Thế giới...
+					.behavior_wrap__fw_content
+						.read_more__behavior_wrap
+							a(href="") Đọc thêm +
+						.like_share__behavior_wrap
+							.img_wrap__right_site
 								a
-									img(src="imgs/attached_icon.png", alt="attached")
+									img(src="imgs/heart_icon.png", alt="heart icon")
+									label 244
+							.img_wrap__right_site
+								a
+									img(src="imgs/share_white_icon.png", alt="share icon")
+									label 55
+									span  Chia sẻ
+				.fw_comment_right__fw_article_post
+					.author__fw_comment_right
+						a(href="")
+							img(src="imgs/avatar_icon.png", alt="author's article")
+							label Nhân Tống.
+								span  Vừa mới chia sẻ 15 phút trước
+						.comment_display__fw_comment_right
+							a(href="")
+								img(src="imgs/comment_icon.png", alt="comment icon")
+								label 96
+									span  Bình luận
+					.comment__fw_comment_right
+						.block__comment
+							a(href="")
+								img(src="imgs/avatar_icon.png", alt="author's article")
+								label Phuong Ly
+							p Thạc sĩ Ngô Thị Hà Phương, Trung tâm Giáo dục Truyền thông Dinh dưỡng, Viện Dinh dưỡng Quốc gia cho biết, mô hình ăn uống của người dân  Việt Nam thay đổi theo chiều hướng tăng tiêu thụ chất béo, đạm, đặc biệt là tiêu thụ dư thừa muối. Gần 60% người dân tiêu thụ lượng muối cao gấp hai lần lượng muối được khuyên dùng hàng ngày. Tổ chức Y tế Thế giới (WHO) khuyến nghị, một người trưởng thành nên sử dụng dưới 5 g muối mỗi ngày, tuy nhiên một bát phở hoặc bún có thể có đến 4-5 g muối. Thạc sĩ Ngô Thị Hà Phương, Trung tâm Giáo dục Truyền thông Dinh dưỡng, Viện Dinh dưỡng Quốc gia cho biết, mô hình ăn uống của người dân  Việt Nam thay đổi theo chiều hướng tăng tiêu thụ chất béo, đạm, đặc biệt là tiêu thụ dư thừa muối. Gần 60% người dân tiêu thụ lượng muối cao gấp hai lần lượng muối được khuyên dùng hàng ngày. Tổ chức Y tế Thế giới (WHO) khuyến nghị, một người trưởng thành nên sử dụng dưới 5 g muối mỗi ngày, tuy nhiên một bát phở hoặc bún có thể có đến 4-5 g muối...
+								a(href="") Đọc thêm +
+
+						.block__comment
+							a(href="")
+								img(src="imgs/avatar_icon.png", alt="author's article")
+								label Phuong Ly
+							p Thạc sĩ Ngô Thị Hà Phương, Trung tâm Giáo dục Truyền thông Dinh dưỡng, Viện Dinh dưỡng Quốc gia cho biết, mô hình ăn uống của người dân  Việt Nam thay đổi theo chiều hướng tăng tiêu thụ chất béo, đạm, đặc biệt là tiêu thụ dư thừa muối. Gần 60% người dân tiêu thụ lượng muối cao gấp hai lần lượng muối được khuyên dùng hàng ngày. Tổ chức Y tế Thế giới (WHO) khuyến nghị, một người trưởng thành nên sử dụng dưới 5 g muối mỗi ngày, tuy nhiên một bát phở hoặc bún có thể có đến 4-5 g muối...
+								a(href="") Đọc thêm +
+						.block__comment
+							a(href="")
+								img(src="imgs/avatar_icon.png", alt="author's article")
+								label Phuong Ly
+							p Thạc sĩ Ngô Thị Hà Phương, Trung tâm Giáo dục Truyền thông Dinh dưỡng, Viện Dinh dưỡng Quốc gia cho biết, mô hình ăn uống của người dân  Việt Nam thay đổi theo chiều hướng tăng tiêu thụ chất béo, đạm, đặc biệt là tiêu thụ dư thừa muối. Gần 60% người dân tiêu thụ lượng muối cao gấp hai lần lượng muối được khuyên dùng hàng ngày. Tổ chức Y tế Thế giới (WHO) khuyến nghị, một người trưởng thành nên sử dụng dưới 5 g muối mỗi ngày, tuy nhiên một bát phở hoặc bún có thể có đến 4-5 g muối...
+								a(href="") Đọc thêm +
+						.block__comment
+							a(href="")
+								img(src="imgs/avatar_icon.png", alt="author's article")
+								label Phuong Ly
+							p Thạc sĩ Ngô Thị Hà Phương, Trung tâm Giáo dục Truyền thông Dinh dưỡng, Viện Dinh dưỡng Quốc gia cho biết, mô hình ăn uống của người dân  Việt Nam thay đổi theo chiều hướng tăng tiêu thụ chất béo, đạm, đặc biệt là tiêu thụ dư thừa muối. Gần 60% người dân tiêu thụ lượng muối cao gấp hai lần lượng muối được khuyên dùng hàng ngày. Tổ chức Y tế Thế giới (WHO) khuyến nghị, một người trưởng thành nên sử dụng dưới 5 g muối mỗi ngày, tuy nhiên một bát phở hoặc bún có thể có đến 4-5 g muối.
+						.block__comment
+							a(href="")
+								img(src="imgs/avatar_icon.png", alt="author's article")
+								label Phuong Ly
+							p Thạc sĩ Ngô Thị Hà Phương, Trung tâm Giáo dục Truyền thông Dinh dưỡng, Viện Dinh dưỡng Quốc gia cho biết, mô hình ăn uống của người dân  Việt Nam thay đổi theo chiều hướng tăng tiêu thụ chất béo, đạm, đặc biệt là tiêu thụ dư thừa muối. Gần 60% người dân tiêu thụ lượng muối cao gấp hai lần lượng muối được khuyên dùng hàng ngày. Tổ chức Y tế Thế giới (WHO) khuyến nghị, một người trưởng thành nên sử dụng dưới 5 g muối mỗi ngày, tuy nhiên một bát phở hoặc bún có thể có đến 4-5 g muối.
+						.block__comment
+							a(href="")
+								img(src="imgs/avatar_icon.png", alt="author's article")
+								label Phuong Ly
+							p Thạc sĩ Ngô Thị Hà Phương, Trung tâm Giáo dục Truyền thông Dinh dưỡng, Viện Dinh dưỡng Quốc gia cho biết, mô hình ăn uống của người dân  Việt Nam thay đổi theo chiều hướng tăng tiêu thụ chất béo, đạm, đặc biệt là tiêu thụ dư thừa muối. Gần 60% người dân tiêu thụ lượng muối cao gấp hai lần lượng muối được khuyên dùng hàng ngày. Tổ chức Y tế Thế giới (WHO) khuyến nghị, một người trưởng thành nên sử dụng dưới 5 g muối mỗi ngày, tuy nhiên một bát phở hoặc bún có thể có đến 4-5 g muối.
+						.block__comment
+							a(href="")
+								img(src="imgs/avatar_icon.png", alt="author's article")
+								label Phuong Ly
+							p Thạc sĩ Ngô Thị Hà Phương, Trung tâm Giáo dục Truyền thông Dinh dưỡng, Viện Dinh dưỡng Quốc gia cho biết, mô hình ăn uống của người dân  Việt Nam thay đổi theo chiều hướng tăng tiêu thụ chất béo, đạm, đặc biệt là tiêu thụ dư thừa muối. Gần 60% người dân tiêu thụ lượng muối cao gấp hai lần lượng muối được khuyên dùng hàng ngày. Tổ chức Y tế Thế giới (WHO) khuyến nghị, một người trưởng thành nên sử dụng dưới 5 g muối mỗi ngày, tuy nhiên một bát phở hoặc bún có thể có đến 4-5 g muối.
+						.block__comment
+							a(href="")
+								img(src="imgs/avatar_icon.png", alt="author's article")
+								label Phuong Ly
+							p Thạc sĩ Ngô Thị Hà Phương, Trung tâm Giáo dục Truyền thông Dinh dưỡng, Viện Dinh dưỡng Quốc gia cho biết, mô hình ăn uống của người dân  Việt Nam thay đổi theo chiều hướng tăng tiêu thụ chất béo, đạm, đặc biệt là tiêu thụ dư thừa muối. Gần 60% người dân tiêu thụ lượng muối cao gấp hai lần lượng muối được khuyên dùng hàng ngày. Tổ chức Y tế Thế giới (WHO) khuyến nghị, một người trưởng thành nên sử dụng dưới 5 g muối mỗi ngày, tuy nhiên một bát phở hoặc bún có thể có đến 4-5 g muối.
+						.block__comment
+							a(href="")
+								img(src="imgs/avatar_icon.png", alt="author's article")
+								label Phuong Ly
+							p Thạc sĩ Ngô Thị Hà Phương, Trung tâm Giáo dục Truyền thông Dinh dưỡng, Viện Dinh dưỡng Quốc gia cho biết, mô hình ăn uống của người dân  Việt Nam thay đổi theo chiều hướng tăng tiêu thụ chất béo, đạm, đặc biệt là tiêu thụ dư thừa muối. Gần 60% người dân tiêu thụ lượng muối cao gấp hai lần lượng muối được khuyên dùng hàng ngày. Tổ chức Y tế Thế giới (WHO) khuyến nghị, một người trưởng thành nên sử dụng dưới 5 g muối mỗi ngày, tuy nhiên một bát phở hoặc bún có thể có đến 4-5 g muối.
+						.block__comment
+							a(href="")
+								img(src="imgs/avatar_icon.png", alt="author's article")
+								label Phuong Ly
+							p Thạc sĩ Ngô Thị Hà Phương, Trung tâm Giáo dục Truyền thông Dinh dưỡng, Viện Dinh dưỡng Quốc gia cho biết, mô hình ăn uống của người dân  Việt Nam thay đổi theo chiều hướng tăng tiêu thụ chất béo, đạm, đặc biệt là tiêu thụ dư thừa muối. Gần 60% người dân tiêu thụ lượng muối cao gấp hai lần lượng muối được khuyên dùng hàng ngày. Tổ chức Y tế Thế giới (WHO) khuyến nghị, một người trưởng thành nên sử dụng dưới 5 g muối mỗi ngày, tuy nhiên một bát phở hoặc bún có thể có đến 4-5 g muối.
+					.counting__fw_comment_right
+						label 4/16
+						a(href="")
+							img(src="imgs/caret_down_icon.png", alt="view more comment")
+					.foot_article__fw_comment_right
+						.right__foot_article
+							input(type="text", placeholder="Chia sẻ suy nghĩ của bạn...")
+							.edit_item__right
+								.left__edit_item
+									a(href="")
+										img(src="imgs/submit_message_button.png", alt="background text")
+								.right__edit_item
+									ul
+										li
+											a
+												img(src="imgs/link_icon.png", alt="link")
+										li
+											a
+												img(src="imgs/smile_icon.png", alt="smile")
+										li
+											a
+												img(src="imgs/attach_file_icon.png", alt="attached")
+					.fw_display_comment
+						img(src="imgs/", alt="")
 	.fw_home_right__fw_home
-		ul
+		.title__fw_home_right
+			h2 Discover
+			a(href="")
+				img(src="imgs/eye_icon.png", alt="")
+		ul.parent__fw_home_right
 			li
 				a(href="") Chúng tôi là ai
 			li
 				a(href="") Cuộc đời của tôi
-			li
+			li.active
 				a(href="") Con đường tôi
-				ul
+				ul.child__fw_home_right
 					li
 						a(href="") Nghề nghiệp
 					li
@@ -377,54 +543,49 @@
 				li
 					a(href="")
 						img(src="imgs/avatar_icon.png", alt="avatar chat")
-						label.name(for="")
-						img.online(src="imgs/", alt="")
+						label.name(for="") Trịnh Công Sơn
+						img.online(src="imgs/green_dot.png", alt="online_icon")
 				li
 					a(href="")
 						img(src="imgs/avatar_icon.png", alt="avatar chat")
-						label.name(for="")
-						img.online(src="imgs/", alt="")
+						label.name(for="") Trịnh Công Sơn
+						img.online(src="imgs/green_dot.png", alt="online_icon")
 				li
 					a(href="")
 						img(src="imgs/avatar_icon.png", alt="avatar chat")
-						label.name(for="")
-						img.online(src="imgs/", alt="")
+						label.name(for="") Trịnh Công Sơn
+						img.online(src="imgs/green_dot.png", alt="online_icon")
 				li
 					a(href="")
 						img(src="imgs/avatar_icon.png", alt="avatar chat")
-						label.name(for="")
-						img.online(src="imgs/", alt="")
+						label.name(for="") Trịnh Công Sơn
+						img.online(src="imgs/black_dot_icon.png", alt="online_icon")
 				li
 					a(href="")
 						img(src="imgs/avatar_icon.png", alt="avatar chat")
-						label.name(for="")
-						img.online(src="imgs/", alt="")
+						label.name(for="") Trịnh Công Sơn
+						img.online(src="imgs/black_dot_icon.png", alt="online_icon")
 				li
 					a(href="")
 						img(src="imgs/avatar_icon.png", alt="avatar chat")
-						label.name(for="")
-						img.online(src="imgs/", alt="")
+						label.name(for="") Trịnh Công Sơn
+						img.online(src="imgs/black_dot_icon.png", alt="online_icon")
 				li
 					a(href="")
 						img(src="imgs/avatar_icon.png", alt="avatar chat")
-						label.name(for="")
-						img.online(src="imgs/", alt="")
+						label.name(for="") Hiền Thục
+						img.online(src="imgs/black_dot_icon.png", alt="online_icon")
 				li
 					a(href="")
 						img(src="imgs/avatar_icon.png", alt="avatar chat")
-						label.name(for="")
-						img.online(src="imgs/", alt="")
+						label.name(for="") Hiền Thục
+						img.online(src="imgs/green_dot.png", alt="online_icon")
 				li
 					a(href="")
 						img(src="imgs/avatar_icon.png", alt="avatar chat")
-						label.name(for="")
-						img.online(src="imgs/", alt="")
-				li
-					a(href="")
-						img(src="imgs/avatar_icon.png", alt="avatar chat")
-						label.name(for="")
-						img.online(src="imgs/", alt="")
+						label.name(for="") Hiền Thục
+						img.online(src="imgs/green_dot.png", alt="online_icon")
 		.right_site__fw_home_chat
 			.search__right_site
 				img(src="imgs/search_icon.png",alt="search icon")
-				input(type="text", placeholder="search")
+				input(type="text", placeholder="TÌM KIẾM")

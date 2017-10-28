@@ -1,0 +1,40 @@
+@import fw_style
+@import map-get
++exports("fw_home_right")
+	.fw_home_right__fw_home
+			@extend .fw_col_lg_2s
+			.title__fw_home_right
+				@extend .fw_title_8th
+				@extend .fw_margin_bottom_smd
+				h2
+					@extend .fw_text_size_xlg_2nd
+					color: map-get($fw-color-hot,1)
+					text-transform: uppercase
+			ul
+				&.parent__fw_home_right
+					li
+						@extend .fw_padding_xs_all
+						text-align: right
+						cursor: pointer
+						a
+							color: map-get($fw-color-dark,1)
+					> li
+						&.active
+							> a
+								@extend .fw_padding_xs_all
+								@extend .fw_roud_xs
+								color: map-get($fw-color-dark,5)
+								background-color: map-get($fw-color-cold,2)
+							ul
+								@extend .fw_roud_xs
+								border: 1px solid map-get($fw-color-cold,1)
+								> li
+									border-bottom: 1px solid map-get($fw-color-cold,1)
+									&:hover
+										background-color: map-get($fw-color-cold,1)
+										a
+											color: map-get($fw-color-dark,5)
+									&:last-child
+										border-bottom: none
+									a
+										color: map-get($fw-color-dark,2)
