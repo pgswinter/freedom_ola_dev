@@ -1,40 +1,47 @@
 @import fw_style
 @import map-get
 +exports("fw_home_chat")
-	.fw_home_chat__fw_home
-		@extend .fw_col_lg_10s
-		@extend .fw_padding_xs_all
-		border: 1px solid map-get($fw-color-dark,3)
-		border-top-left-radius: 8px
-		border-top-right-radius: 8px
-		.left_site__fw_home_chat
-			@extend .fw_col_lg_8s
-			overflow-x: scroll
-			white-space: nowrap
-			border-right: 1px solid map-get($fw-color-dark,3)
-			ul
-				width: 100%
-				li
-					display: inline-block
-					position: relative
-					@extend .fw_margin_right_xs
-					@extend .fw_margin_left_xs
-					a
-						img
-							display: block
-							margin: 0 auto
-							margin-bottom: 5px
-							&.online
-								position: absolute
-								top: 0
-								left: 52%
-		.right_site__fw_home_chat
-			@extend .fw_col_lg_2s
-			position: relative
-			height: 100%
-			.search__right_site
-				@extend .fw_padding_sm_all
-				img
-					@extend .fw_margin_right_xs
-				input
-					width: 80%
+	.fw_chat
+		position: fixed
+		@extend .fw_center_horizontal_1st
+		bottom: 0
+		background-color: #fff
+		.fw_home_chat__fw_home
+			@extend .fw_col_lg_10s
+			@extend .fw_padding_xs_all
+			border: 1px solid map-get($fw-color-dark,3)
+			border-top-left-radius: 8px
+			border-top-right-radius: 8px
+			.left_site__fw_home_chat
+				@extend .fw_col_lg_8s
+				overflow-x: scroll
+				white-space: nowrap
+				border-right: 1px solid map-get($fw-color-dark,3)
+				ul
+					width: 100%
+					li
+						display: inline-block
+						position: relative
+						@extend .fw_margin_right_xs
+						@extend .fw_margin_left_xs
+						a
+							img
+								display: block
+								margin: 0 auto
+								@extend .fw_margin_bottom_xs
+								&.online
+									position: absolute
+									top: 0
+									left: 52%
+							label
+								@extend .fw_text_size_xlg_1st
+			.right_site__fw_home_chat
+				@extend .fw_col_lg_2s
+				position: relative
+				height: 100%
+				.search__right_site
+					@extend .fw_padding_sm_all
+					img
+						@extend .fw_margin_right_xs
+					input
+						width: 80%
