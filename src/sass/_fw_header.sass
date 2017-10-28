@@ -1,0 +1,26 @@
+@import functions
+@import fw_style
+@import map-get
+@import fw_search_area
+@import fw_notification
++exports("fw_header")
+	.fw_header
+		position: fixed
+		@extend .fw_center_horizontal_1st
+		z-index: 2
+		top: 0
+		background-color: #fff
+		height: 50px
+		width: 100%
+		.fw_header_wrapper
+			height: 100%
+			.fw_logo__fw_header
+				a
+					img
+						display: block
+						@extend .fw_center_vertical_0th
+			.fw_notification__fw_header
+				@extend .fw_notification__fw_header
+				@extend .fw_god_center
+			.fw_search_area
+				@extend .fw_search_area

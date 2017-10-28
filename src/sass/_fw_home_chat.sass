@@ -5,17 +5,19 @@
 		position: fixed
 		@extend .fw_center_horizontal_1st
 		bottom: 0
-		background-color: #fff
 		.fw_home_chat__fw_home
 			@extend .fw_col_lg_10s
-			@extend .fw_padding_xs_all
+			padding-top: 5px
 			border: 1px solid map-get($fw-color-dark,3)
 			border-top-left-radius: 8px
 			border-top-right-radius: 8px
+			background-color: #fff
+			overflow: hidden
+			position: relative
 			.left_site__fw_home_chat
 				@extend .fw_col_lg_8s
-				overflow-x: scroll
 				white-space: nowrap
+				overflow-x: scroll
 				border-right: 1px solid map-get($fw-color-dark,3)
 				ul
 					width: 100%
@@ -37,10 +39,9 @@
 								@extend .fw_text_size_xlg_1st
 			.right_site__fw_home_chat
 				@extend .fw_col_lg_2s
-				position: relative
-				height: 100%
+				@extend .fw_padding_left_sm
 				.search__right_site
-					@extend .fw_padding_sm_all
+					@extend .fw_center_vertical_0th
 					img
 						@extend .fw_margin_right_xs
 					input
