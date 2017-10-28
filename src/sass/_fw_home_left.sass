@@ -47,6 +47,7 @@
 				@extend .fw_margin_bottom_smd
 				h2
 					@extend .fw_text_size_xlg_2nd
+					text-transform: uppercase
 		article
 			@extend .fw_clear_float_parent
 			@extend .fw_roud_xs
@@ -57,7 +58,7 @@
 				@extend .fw_padding_xs_all
 				@extend .fw_clear_float_parent
 				.left_site__title
-					width: 54%
+					width: 50%
 					position: relative
 					float: left
 					.img_wrap__left_site
@@ -73,13 +74,15 @@
 								color: map-get($fw-color_cold,3)
 								font-weight: bold
 				.right_site__title
-					width: 46%
+					width: 50%
 					position: relative
 					float: left
 					.img_wrap__right_site
 						display: inline-block
 						@extend .fw_text_size_xlg_2nd
 						@extend .fw_margin_right_xs
+						img
+							@extend .fw_margin_right_xs
 			.main_site__fw_trending_articles
 				.img_wrap__main_site
 					@extend .fw_img_wrap_0th
