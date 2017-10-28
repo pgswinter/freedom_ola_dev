@@ -6,18 +6,28 @@
 @import fw_home_right
 @import fw_home_chat
 +exports("fw_home")
-	.fw_home
-		background-color: map-get($fw-color-dark,4)
-		background: -webkit-linear-gradient(map-get($fw-color-dark,4),#fff,#fff);
-		@extend .fw_padding_right_md
-		@extend .fw_padding_left_md
-		@extend .fw_padding_top_md
-		@extend .fw_clear_float_parent
-		.fw_home_left__fw_home
-			@extend .fw_home_left__fw_home
-		.fw_home_center__fw_home
-			@extend .fw_home_center__fw_home
-		.fw_home_right__fw_home
-			@extend .fw_home_right__fw_home
-		.fw_home_chat__fw_home
-			@extend .fw_home_chat__fw_home
+	.fw_master_home
+		position: fixed
+		@extend .fw_center_horizontal_1st
+		top: 56px
+		.fw_home
+			background-color: map-get($fw-color-dark,4)
+			background: -webkit-linear-gradient(map-get($fw-color-dark,4),#fff,#fff);
+			background-color: transparent
+			@extend .fw_padding_right_md
+			@extend .fw_padding_left_md
+			@extend .fw_padding_top_md
+			@extend .fw_clear_float_parent
+			.fw_home_left__fw_home
+				@extend .fw_home_left__fw_home
+			.fw_home_center__fw_home
+				@extend .fw_home_center__fw_home
+			.fw_home_center_cover__fw_home
+				@extend .fw_col_lg_6s
+				min-height: 1px
+			.fw_home_right__fw_home
+				@extend .fw_home_right__fw_home
+			.fw_home_chat__fw_home
+				@extend .fw_home_chat__fw_home
+	.fw_home_cover
+		margin-top: 56px

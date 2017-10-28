@@ -1,6 +1,7 @@
 @import functions
 @import map-get
 @import fw_ola_align_common
+@import fw_ola_animate_common
 +exports("fw_ola_button_common")
 	.div[class*="_button"],
 	.div[class^="_button"]
@@ -352,6 +353,7 @@
 				display: none
 	// SWITCH  ---------------------------------------------------------------------
 	.fw_switch
+		cursor: pointer
 		.bar__fw_switch
 			width: 42px
 			height: 17px
@@ -383,7 +385,12 @@
 				background-color: map-get($fw-color-cold,1)
 				position: absolute
 				top: 0
-				right: -1px
+				left: -1px
 				@extend .fw_roud_xs
+				@extend .fw_transition_effect_0th
 				display: block
+		&.active
+			.bar__fw_switch
+				&:after
+					left: 50%
 				
