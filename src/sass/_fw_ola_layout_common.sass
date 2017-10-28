@@ -400,6 +400,7 @@
 				background-color: transparent
 			img
 				width: 100%
+
 	// 	avatar ---------------------------------------------------------------------
 	.fw_avatar
 		a
@@ -414,4 +415,58 @@
 				left: 20px
 			span
 				white-space: nowrap
-	
+
+	//  list item ---------------------------------------------------------------------
+	ul
+		&.fw_list_item
+			@extend .fw_roud_xs
+			border: 1px solid map-get($fw-color-cold,1)
+			margin-top: 0
+			> li
+				height: auto
+				border-bottom: 1px solid map-get($fw-color-cold,1)
+				a
+					color: map-get($fw-color-dark,2)
+					width: 100%
+					height: auto
+					position: relative
+					@extend .fw_clear_float_parent
+					@extend .fw_padding_xs_all
+					img
+						@extend .fw_remove_center
+						float: left
+					.notification_item__child
+						float: left
+						label
+							border-radius: 0
+							background: none
+							color: map-get($fw-color-dark,1)
+							width: auto
+							height: auto
+							text-align: left
+							@extend .fw_text_size_xlg_1st
+							@extend .fw_margin_top_xs
+							line-height: 0
+							right: initial
+							left: 30px
+							top: initial
+							display: block
+							font-weight: bold
+							span
+								color: map-get($fw-color-dark,2)
+						p
+							@extend .fw_text_size_xlg_1st
+							color: map-get($fw-color-cold,3)
+							@extend .fw_margin_left_xs
+							@extend .fw_margin_top_sm
+				&:hover
+					background-color: map-get($fw-color-cold,1)
+					a
+						.notification_item__child
+							label,
+							p
+								color: #fff
+							span
+								color: map-get($fw-color-dark,6)
+				&:last-child
+					border-bottom: none

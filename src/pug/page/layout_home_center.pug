@@ -1,0 +1,75 @@
+.fw_home_center__fw_home
+	.fw_add_friends__fw_home_center
+		.title__fw_add_friends
+			h2 Kết bạn
+			a(href="")
+				img(src="imgs/question_icon.png", alt="")
+		.friend_list__fw_add_friends
+			article
+				img(src="imgs/avatar_icon.png", alt="avatar icon")
+				label Tuấn Anh
+				span Kiến trúc sư
+			article
+				img(src="imgs/avatar_icon.png", alt="avatar icon")
+				label Tuấn Anh
+				span Chủ shop
+			article
+				img(src="imgs/avatar_icon.png", alt="avatar icon")
+				label Tuấn Anh
+				span Phi công
+			article
+				img(src="imgs/avatar_icon.png", alt="avatar icon")
+				label Tuấn Anh
+				span Thiết kế
+	.fw_post_status__fw_home_center
+		.select_type__fw_post_status
+			.tab_task__select_type
+				ul
+					li.status__fw_post_status.active
+						a(href="")
+							img(src="imgs/post_message_icon.png", alt="post message")
+							label Cập nhật trạng thái
+					li
+						a(href="")
+							label Thêm ảnh / album
+					li
+						a(href="")
+							label Vide trực tuyến
+			.right_site__select_type
+				.fw_switch
+					.bar__fw_switch
+						.on__fw_switch
+							label Bật
+						.off__fw_switch
+							label Tắt
+				label.label__right_site Công khai
+		.fw_main_input__fw_post_status
+			input(type="text", placeholder="Bạn đang nghĩ gì, Thảo?")
+			.send_post__main_input
+				a
+					img(src="imgs/plane_icon.png", alt="plane icon")
+	.fw_filter_article__fw_home_center
+		nav
+			a(href="").active Dòng thời gian
+			a(href="") Bài mới
+			a(href="") Bạn bè
+			a(href="") Nhóm
+		.right_site__fw_filter_article
+			.label_wrap__right_site
+				label Tìm theo
+				img(src="imgs/filter_icon.png", alt="")
+			.filter_hover__right_site
+				ul
+					li
+						img(src="imgs/black_dot_icon.png", alt="bullet latest")
+						a(href="") Bài mới nhất
+					li
+						img(src="imgs/black_dot_icon.png", alt="bullet latest")
+						a(href="") Tính năng
+					li
+						img(src="imgs/white_dot_icon.png", alt="bullet latest")
+						a(href="") Sở thích
+					li
+						img(src="imgs/black_dot_icon.png", alt="bullet latest")
+						a(href="") Pin
+	include layout_home_post_area

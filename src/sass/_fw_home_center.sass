@@ -1,11 +1,13 @@
-@import fw_style
-@import map-get
 +exports("fw_home_center")
 	.fw_home_center__fw_home
 		@extend .fw_col_lg_6s
-		@extend .fw_padding_left_md
+		@extend .fw_padding_right_lg
+		@extend .fw_padding_left_lg
+		@extend .fw_padding_top_md
+		padding-bottom: 76px
+		// background: -webkit-linear-gradient(map-get($fw-color-dark,4),#fff,#fff);
 		.fw_add_friends__fw_home_center
-			width: 65%
+			width: 70%
 			@extend .fw_center_0th
 			@extend .fw_margin_bottom_lg_god
 			.title__fw_add_friends
@@ -29,7 +31,7 @@
 					label
 						font-weight: bold
 		.fw_post_status__fw_home_center
-			width: 65%
+			width: 70%
 			margin: 0 auto
 			position: relative
 			.select_type__fw_post_status
@@ -92,7 +94,7 @@
 						img
 							@extend .fw_god_center
 		.fw_filter_article__fw_home_center
-			width: 65%
+			width: 70%
 			margin: 0 auto
 			position: relative
 			@extend .fw_text_size_xlg_1st
