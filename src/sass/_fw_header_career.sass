@@ -1,0 +1,123 @@
+@import fw_style
+@import map-get
++exports("fw_header_career")
+	.fw_cover_image
+		@extend .fw_col_lg_12
+		@extend .fw_col_md_12
+	.fw_menu_header
+		@extend .fw_col_lg_12
+		@extend .fw_col_md_12
+		.left_menu__fw_menu_header
+			@extend .fw_col_lg_4
+			@extend .fw_col_md_4
+			margin-top: -0.5rem
+			.container__left_menu
+				width: 100%
+				height: 100%
+				.tutorial__container
+					width: 100%
+					ul
+						font-size: 0
+						list-style-type: none
+						li:last-child
+							border-right: 0px
+						li
+							background-color: #F0F4F7
+							font-size: 1rem
+							font-weight: 400
+							color: #333
+							display: inline-block
+							padding: 15px
+							position: relative
+							border-right: 1px solid #CBCCCE
+						li:hover
+							cursor: pointer
+							background-color: #f2f2f2
+		img
+			@extend .fw_col_lg_1
+			@extend .fw_col_md_1
+			float: left;
+			z-index: 1;
+			position: relative;
+			margin-top: -6.6rem;
+			margin-left: 2rem;
+			border: 0.1em solid map-get($fw-color-cold,1);
+			border-radius: 50%;
+		.right_menu__fw_menu_header
+			@extend .fw_col_lg_7
+			@extend .fw_col_md_7
+			.container__right_menu
+				width: 100%
+				height: 100%
+				margin-left: 6.1rem
+				.tutorial__container
+					width: 100%
+					margin: 5% auto 0 auto
+					box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1)
+					background-color: #F0F4F7
+					margin-top: -3.7rem;
+					ul
+						font-size: 0
+						list-style-type: none
+						margin-left: 3rem
+						li
+							font-size: 1rem
+							font-weight: 400
+							color: #333
+							display: inline-block
+							padding: 15px
+							position: relative
+							ul
+								display: none
+						li:hover
+							cursor: pointer
+							background-color: map-get($fw-color-cold,1)
+							ul
+								display: block
+								margin-top: 15px
+								width: 200px
+								left: 0
+								position: absolute
+								background-color: map-get($fw-color-cold,1)
+								margin-left: 0rem
+								z-index: 1
+								li:hover
+									background-color: map-get($fw-color-cold,1)
+									color: #F8FCFD
+								li
+									display: block
+									background-color: map-get($fw-color-cold,1)
+	.fw_time_line_status
+		@extend .fw_col_lg_12
+		@extend .fw_col_md_12
+		.fw_name_user
+			@extend .fw_col_lg_12
+			@extend .fw_col_md_12
+			text-align: center
+			margin-bottom: 1em
+			p:first-child
+				font-weight: bold
+		.fw_time_status
+			@extend .fw_col_lg_12
+			@extend .fw_col_md_12
+			text-align: center
+			ul
+				li
+					list-style-type: none
+					display: inline-block
+					position: relative
+					i
+					hr
+						display: inline-block
+						width: 10em
+						top: -0.3em
+						position: relative
+		.fw_status
+			@extend .fw_col_lg_12
+			@extend .fw_col_md_12
+			.container_status__fw_status
+				@extend .fw_center_horizontal_1st
+				text-align: center
+				border: 1px solid
+				border-radius: 10px
+				padding: 1%
