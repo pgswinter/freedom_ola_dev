@@ -1,18 +1,12 @@
 @import fw_style
 @import map-get
 +exports("fw_search_area")
-	.fw_search
-		position: fixed
-		@extend .fw_center_horizontal_1st
-		z-index: 2
-		top: 0
-		background-color: #fff
-		.fw_search_area
-			@extend .fw_padding_top_smd
-			@extend .fw_padding_bottom_smd
-			position: relative
-			.wrap__fw_search_area
-				width: 100%
+	.fw_search_area
+		@extend .fw_center_vertical_0th
+		right: 0
+		width: 20%
+		.wrap__fw_search_area
+			img
 				@extend .fw_center_vertical_0th
 				img
 					@extend .fw_margin_left_lg
@@ -21,3 +15,8 @@
 					@extend .fw_text_size_xlg_1st
 					font-weight: bold
 					width: 80%
+			input[type="text"]
+				@extend .fw_margin_left_md
+				@extend .fw_text_size_xlg_1st
+				font-weight: bold
+				width: 80%
