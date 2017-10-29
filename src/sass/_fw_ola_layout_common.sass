@@ -420,16 +420,17 @@
 	ul
 		&.fw_list_item
 			@extend .fw_roud_xs
-			border: 1px solid map-get($fw-color-cold,1)
+			border: 1px solid map-get($fw-color-dark,3)
 			margin-top: 0
 			> li
 				height: auto
-				border-bottom: 1px solid map-get($fw-color-cold,1)
+				border-bottom: 1px solid map-get($fw-color-dark,3)
 				a
 					color: map-get($fw-color-dark,2)
 					width: 100%
 					height: auto
 					position: relative
+					display: block
 					@extend .fw_clear_float_parent
 					@extend .fw_padding_xs_all
 					img
@@ -437,6 +438,7 @@
 						float: left
 					.notification_item__child
 						float: left
+						@extend .fw_padding_left_xs
 						label
 							border-radius: 0
 							background: none
@@ -457,8 +459,7 @@
 						p
 							@extend .fw_text_size_xlg_1st
 							color: map-get($fw-color-cold,3)
-							@extend .fw_margin_left_xs
-							@extend .fw_margin_top_sm
+							@extend .fw_margin_top_xs
 				&:hover
 					background-color: map-get($fw-color-cold,1)
 					a
