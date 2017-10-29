@@ -1,0 +1,121 @@
++exports("fw_notificaton")
+	.fw_notification__fw_home_left
+		.img_wrap__fw_notification
+			position: relative
+			label
+				@extend .fw_text_size_xlg_1st
+				@extend .fw_margin_left_md
+				font-weight: bold
+			img
+				@extend .fw_center_vertical_0th
+		.list_item__fw_notification
+			ul
+				@extend .fw_margin_top_sm
+				li
+					height: 40px
+					position: relative
+					a
+						position: relative
+						width: 18px
+						height: 18px
+						display: block
+						img
+							display: block
+							@extend .fw_god_center
+						label
+							width: 15px
+							height: 15px
+							border-radius: 50%
+							background-color: map-get($fw-color-hot,1)
+							text-align: center
+							display: block
+							color: #fff
+							line-height: 2
+							position: absolute
+							top: -50%
+							right: -25%
+							@extend .fw_text_size_xlg_3rd
+					ul
+						&.child__list_item
+							@extend .fw_list_item
+							position: absolute
+							top: 0
+							left: 13%
+							background-color: rgba(255,255,255,1)
+							z-index: 1
+							overflow: hidden
+							opacity: 0
+							visibility: hidden
+							min-width: 200px
+							@extend .fw_transition_effect_0th
+				> li
+					&.active
+						ul
+							&.child__list_item
+								opacity: 1
+								visibility: visible
+	.fw_notification__fw_header
+		.img_wrap__fw_notification
+			position: relative
+			display: inline-block
+			label
+				@extend .fw_text_size_xlg_1st
+				@extend .fw_margin_left_md
+				font-weight: bold
+			img
+				@extend .fw_center_vertical_0th
+		.list_item__fw_notification
+			display: inline-block
+			position: relative
+			width: 220px
+			ul
+				@extend .fw_center_vertical_0th
+				width: 100%
+				&.parent__list_item
+					> li
+						position: relative
+						display: inline-block
+						@extend .fw_margin_left_md
+						&:first-child
+							@extend .fw_margin_left_sm
+						> a
+							position: relative
+							width: 18px
+							height: 18px
+							display: block
+							img
+								display: block
+								@extend .fw_god_center
+							label
+								width: 15px
+								height: 15px
+								border-radius: 50%
+								background-color: map-get($fw-color-hot,1)
+								text-align: center
+								display: block
+								color: #fff
+								line-height: 2
+								position: absolute
+								top: -50%
+								right: -25%
+								@extend .fw_text_size_xlg_3rd
+						ul
+							&.child__list_item
+								@extend .fw_list_item
+								@extend .fw_remove_center
+								position: absolute
+								top: 0
+								left: 100%
+								background-color: rgba(255,255,255,1)
+								z-index: 1
+								overflow: hidden
+								opacity: 0
+								visibility: hidden
+								min-width: 200px
+								@extend .fw_transition_effect_0th
+				> li
+					&.active
+						ul
+							&.child__list_item
+								opacity: 1
+								visibility: visible

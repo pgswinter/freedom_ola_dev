@@ -1,14 +1,12 @@
-//- extends layouts/master_page.pug
-//- block header
-//- 	include header/layout_header_career
 extends layouts/master_page_home.pug
-block search
- include page/layout_search
+block header
+	include header/layout_header
 block home_center
- include page/layout_home_cover
+	include page/layout_home_cover
 block page
  include page/layout_home
 block footer
  include footer/layout_footer
 block chat
  include page/layout_home_chat
+
