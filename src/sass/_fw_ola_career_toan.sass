@@ -2,13 +2,11 @@
 @import map-get
 +exports("fw_ola_career_toan")
 	.fw_career_box
-		float: left
 		width: 100%
-		margin-top: 5em
 		background-color: map-get($fw-color-cold,1)
 		color: map-get($fw-color-dark,1)
-		min-height: 70px;
 		position: relative
+		@extend .fw_margin_top_md
 		h2
 			color: #000
 			font-weight: 700
@@ -16,6 +14,7 @@
 			@extend .fw_god_center
 	.fw_title_profile
 		text-align: center
+		@extend .fw_margin_top_md
 		h3
 			span
 				color: map-get($fw-color-dark,1)
@@ -96,17 +95,21 @@
 						label
 							float: left
 							background-color: map-get($fw-color-cold,1)
-							text-align: center 
+							text-align: center
 							@extend .fw_roud_sm
 							@extend .fw_padding_sxs_all
 							@extend .fw_margin_left_sm
+							@extend .fw_padding_right_sm
+							@extend .fw_padding_left_sm
 						span
 							float: left
 							margin-top: 3px
 							color: map-get($fw-color-cold,1)
-							font-weight: bold
 							@extend .fw_margin_left_xs
-							@extend .fw_margin_right_xs							
+							@extend .fw_margin_right_xs
+						&:first-child
+							label
+								margin-left: 0							
 				hr
 					width: 100%
 			.fw_see_all
@@ -124,12 +127,9 @@
 					@extend .fw_margin_right_xs
 					@extend .fw_margin_top_sm
 					.fw_wrap_img__my_detail_footsteps
-						img
-							width: 110px
-							height: 110px
+						@extend .fw_img_wrap_vertical_2nd
 					.fw_footsteps_name__my_detail_footsteps
-						text-align: center
-						font-size: 10pt
+						@extend .fw_align_text_vertical_1st
 						label
 							color: map-get($fw-color-dark,1)
 							font-weight: bold
@@ -177,12 +177,9 @@
 					@extend .fw_margin_right_xs
 					@extend .fw_margin_top_sm
 					.fw_wrap_img__my_detail_books
-						img
-							width: 70px
-							height: 70px
+						@extend .fw_img_wrap_vertical_2nd
 					.fw_footsteps_name__my_detail_books
-						text-align: center
-						font-size: 8pt
+						@extend .fw_align_text_vertical_1st
 						.fw_title_label
 							label
 								color: map-get($fw-color-blue,1)
@@ -210,12 +207,9 @@
 					@extend .fw_margin_right_xs
 					@extend .fw_margin_top_sm
 					.fw_wrap_img__my_detail_sports
-						img
-							width: 100px
-							height: 100px
+						@extend .fw_img_wrap_vertical_2nd
 					.fw_sports_name__my_detail_sports
-						text-align: center
-						font-size: 8pt
+						@extend .fw_align_text_vertical_1st
 						label
 							color: map-get($fw-color-blue,1)
 							font-weight: bold
@@ -238,12 +232,9 @@
 					@extend .fw_margin_right_xs
 					@extend .fw_margin_top_sm
 					.fw_wrap_img__my_detail_music
-						img
-							width: 100px
-							height: 100px
+						@extend .fw_img_wrap_vertical_2nd
 					.fw_music_name__my_detail_music
-						text-align: center
-						font-size: 8pt
+						@extend .fw_align_text_vertical_1st
 						.fw_title_label
 							label
 								color: map-get($fw-color-blue,1)
