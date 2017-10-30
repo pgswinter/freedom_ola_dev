@@ -1,25 +1,29 @@
 .fw_home_right__fw_home
-	.title__fw_home_right
-		h2 Khám phá
-		a(href="")
-			img(src="imgs/eye_icon.png", alt="")
+	//- .title__fw_home_right
+	//- 	h2 Khám phá
+	//- 	a(href="")
+	//- 		img(src="imgs/eye_icon.png", alt="")
 	ul.parent__fw_home_right
-		li
-			a(href="") Chúng tôi là ai
-		li
-			a(href="") Cuộc đời của tôi
+		li.active
+			a(href="") Tôi là ai
+			ul.child__fw_home_right
+				li
+					a(href="") Bản thân
+				li
+					a(href="") Bạn bè
+		li.active
+			a(href="") Cuộc sống của tôi
+			ul.child__fw_home_right
+				li
+					a(href="") Tiện ích của tôi
+				li
+					a(href="") Niềm vui của tôi
 		li.active
 			a(href="") Con đường tôi
 			ul.child__fw_home_right
 				li
 					a(href="") Nghề nghiệp
 				li
-					a(href="") Văn học - Nghệ thuật
-				li
 					a(href="") Bạn bè
-				li
-					a(href="") Kết nối
-				li
-					a(href="") Sở thích
-		li
+		li.active
 			a(href="") Không thể nào quên

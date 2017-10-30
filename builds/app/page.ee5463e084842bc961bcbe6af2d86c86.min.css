@@ -2,7 +2,7 @@
 /* Font */
 /* Color */
 /* Font */
-.fw_transition_effect_0th, * ::-webkit-scrollbar, .fw_switch .bar__fw_switch:after, .fw_home_center__fw_home .fw_post_status__fw_home_center .select_type__fw_post_status .right_site__select_type .fw_switch .bar__fw_switch:after, .fw_popover_content nav a, .fw_popover_content nav a img, .fw_notification__fw_home_left .list_item__fw_notification ul li ul.child__list_item, .fw_notification__fw_header .list_item__fw_notification ul.parent__list_item > li ul.child__list_item, .fw_home_center__fw_home .fw_filter_article__fw_home_center .right_site__fw_filter_article .filter_hover__right_site, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post {
+.fw_transition_effect_0th, * ::-webkit-scrollbar, .fw_switch .bar__fw_switch:after, .fw_home_center__fw_home .fw_post_status__fw_home_center .select_type__fw_post_status .right_site__select_type .fw_switch .bar__fw_switch:after, .fw_popover_content nav a, .fw_popover_content nav a img, .fw_notification__fw_home_left .list_item__fw_notification ul li ul.child__list_item, .fw_notification__fw_header .list_item__fw_notification ul.parent__list_item > li ul.child__list_item, .fw_home_center__fw_home .fw_filter_article__fw_home_center .right_site__fw_filter_article .filter_hover__right_site, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out {
   transition: all 300ms	ease;
   -webkit-transition: all 300ms	ease;
   -moz-transition: all 300ms ease;
@@ -99,7 +99,7 @@
     -moz-transform: translateY(-21px); } }
 
 body {
-  background-color: #ededef; }
+  background-color: #f1f1f1; }
 
 * {
   margin: 0;
@@ -248,13 +248,13 @@ input {
 .fw_pushing_padding {
   padding: 100px 0; }
 
-.fw_padding_sxs_all, .fw_home_center__fw_home .fw_filter_article__fw_home_center nav a.active {
+.fw_padding_sxs_all, .fw_career .fw_experience_career article .fw_featured_skills_label ul li label, .fw_home_center__fw_home .fw_filter_article__fw_home_center nav a.active {
   padding: 3px; }
 
-.fw_padding_xs_all, ul.fw_list_item > li a, .fw_notification__fw_home_left .list_item__fw_notification ul li ul.child__list_item > li a, .fw_notification__fw_header .list_item__fw_notification ul.parent__list_item > li ul.child__list_item > li a, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article .title__fw_trending_articles, .fw_trending_articles__fw_home_left .main_site__fw_trending_articles p, .fw_master_home .fw_home .fw_home_left__fw_home .fw_trending_articles__fw_home_left .main_site__fw_trending_articles p, .fw_trending_articles__fw_home_left .foot__fw_trending_articles, .fw_master_home .fw_home .fw_home_left__fw_home .fw_trending_articles__fw_home_left .foot__fw_trending_articles, .fw_home_center__fw_home .fw_filter_article__fw_home_center .right_site__fw_filter_article .filter_hover__right_site, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .foot_article__fw_comment_right .right__foot_article input[type="text"], .fw_home_right__fw_home ul.parent__fw_home_right > li.active > a {
+.fw_padding_xs_all, ul.fw_list_item > li a, .fw_notification__fw_home_left .list_item__fw_notification ul li ul.child__list_item > li a, .fw_notification__fw_header .list_item__fw_notification ul.parent__list_item > li ul.child__list_item > li a, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article .title__fw_trending_articles, .fw_trending_articles__fw_home_left .main_site__fw_trending_articles p, .fw_master_home .fw_home .fw_home_left__fw_home .fw_trending_articles__fw_home_left .main_site__fw_trending_articles p, .fw_trending_articles__fw_home_left .foot__fw_trending_articles, .fw_master_home .fw_home .fw_home_left__fw_home .fw_trending_articles__fw_home_left .foot__fw_trending_articles, .fw_home_center__fw_home .fw_filter_article__fw_home_center .right_site__fw_filter_article .filter_hover__right_site, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .foot_article__fw_comment_right .right__foot_article input[type="text"], .fw_home_center__fw_home .fw_post_area__fw_home_center .foot_article__fw_comment_right.move_out, .fw_home_center__fw_home .fw_post_area__fw_home_center .foot_article__fw_comment_right.move_out .right__foot_article input[type="text"], .fw_home_right__fw_home ul.parent__fw_home_right li > a, .fw_master_home .fw_home .fw_home_right__fw_home ul.parent__fw_home_right li > a, .fw_home_right__fw_home ul.parent__fw_home_right > li.active > a {
   padding: 8px; }
 
-.fw_padding_sm_all, .fw_home_center__fw_home .fw_post_status__fw_home_center .fw_main_input__fw_post_status input[type="text"], .fw_home_center__fw_home .fw_post_status__fw_home_center .fw_main_input__fw_post_status .send_post__main_input a, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_content__fw_article_post .summary__fw_content, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_content__fw_article_post .behavior_wrap__fw_content, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post {
+.fw_padding_sm_all, .fw_career .fw_left_menu .tutorial__container ul li, .fw_career .fw_career_box h2, .fw_career .fw_experience_career article, .fw_home_center__fw_home .fw_post_status__fw_home_center .fw_main_input__fw_post_status input[type="text"], .fw_home_center__fw_home .fw_post_status__fw_home_center .fw_main_input__fw_post_status .send_post__main_input a, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_content__fw_article_post .summary__fw_content, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_content__fw_article_post .behavior_wrap__fw_content, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out {
   padding: 15px; }
 
 .fw_padding_md_all {
@@ -269,7 +269,7 @@ input {
 .fw_padding_right_xs {
   padding-right: 3px; }
 
-.fw_padding_right_sm, .fw_home_right__fw_home ul.parent__fw_home_right > li.active ul > li {
+.fw_padding_right_sm, .fw_career .fw_experience_career article .fw_featured_skills_label ul li label, .fw_home_right__fw_home ul.parent__fw_home_right > li.active ul > li {
   padding-right: 15px; }
 
 .fw_padding_right_smd {
@@ -287,10 +287,10 @@ input {
 .fw_padding_left_xs, ul.fw_list_item > li a .notification_item__child, .fw_notification__fw_home_left .list_item__fw_notification ul li ul.child__list_item > li a .notification_item__child, .fw_notification__fw_header .list_item__fw_notification ul.parent__list_item > li ul.child__list_item > li a .notification_item__child {
   padding-left: 3px; }
 
-.fw_padding_left_sm, .fw_chat .fw_home_chat__fw_home .right_site__fw_home_chat {
+.fw_padding_left_sm, .fw_career .fw_experience_career article .fw_featured_skills_label ul li label, .fw_chat .fw_home_chat__fw_home .right_site__fw_home_chat {
   padding-left: 15px; }
 
-.fw_padding_left_smd, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .comment__fw_comment_right .block__comment p {
+.fw_padding_left_smd, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .comment__fw_comment_right .block__comment p, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .comment__fw_comment_right .block__comment p {
   padding-left: 20px; }
 
 .fw_padding_left_md {
@@ -302,10 +302,10 @@ input {
 .fw_padding_left_lx, .fw_home_center__fw_home, .fw_master_home .fw_home .fw_home_center__fw_home {
   padding-left: 60px; }
 
-.fw_padding_top_xs {
+.fw_padding_top_xs, .fw_home_right__fw_home ul.parent__fw_home_right li, .fw_master_home .fw_home .fw_home_right__fw_home ul.parent__fw_home_right li {
   padding-top: 5px; }
 
-.fw_padding_top_sm, .fw_home_right__fw_home ul.parent__fw_home_right li, .fw_master_home .fw_home .fw_home_right__fw_home ul.parent__fw_home_right li {
+.fw_padding_top_sm, .fw_career .fw_experience_career article .fw_more_position__fw_experience_career .fw_featured_skills {
   padding-top: 15px; }
 
 .fw_padding_top_smd {
@@ -320,10 +320,10 @@ input {
 .fw_padding_top_lx {
   padding-top: 60px; }
 
-.fw_padding_bottom_xs {
+.fw_padding_bottom_xs, .fw_home_right__fw_home ul.parent__fw_home_right li, .fw_master_home .fw_home .fw_home_right__fw_home ul.parent__fw_home_right li {
   padding-bottom: 5px; }
 
-.fw_padding_bottom_sm, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right, .fw_home_right__fw_home ul.parent__fw_home_right li, .fw_master_home .fw_home .fw_home_right__fw_home ul.parent__fw_home_right li {
+.fw_padding_bottom_sm, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .author__fw_comment_right {
   padding-bottom: 15px; }
 
 .fw_padding_bottom_smd {
@@ -428,10 +428,10 @@ input {
 .fw_margin_lx_all {
   margin: 60px; }
 
-.fw_margin_right_xs, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article .title__fw_trending_articles .right_site__title .img_wrap__right_site, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article .title__fw_trending_articles .right_site__title .img_wrap__right_site img, .fw_trending_articles__fw_home_left .foot__fw_trending_articles .left_site__foot .img_wrap__left_site, .fw_trending_articles__fw_home_left .foot__fw_trending_articles .right_site__foot .img_wrap__right_site, .fw_home_center__fw_home .fw_filter_article__fw_home_center .right_site__fw_filter_article .filter_hover__right_site ul li img, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_content__fw_article_post .behavior_wrap__fw_content .like_share__behavior_wrap .img_wrap__right_site, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_content__fw_article_post .behavior_wrap__fw_content .like_share__behavior_wrap .img_wrap__right_site img, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right .comment_display__fw_comment_right a, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right .comment_display__fw_comment_right a img, .fw_chat .fw_home_chat__fw_home .left_site__fw_home_chat ul li, .fw_chat .fw_home_chat__fw_home .right_site__fw_home_chat .search__right_site img {
+.fw_margin_right_xs, .fw_career .fw_experience_career article .fw_featured_skills_label ul li span, .fw_career .fw_experience_career article .fw_detail_footsteps .fw_my_detail_footsteps__fw_detail_footsteps, .fw_career .fw_experience_career article .fw_favourite_books .fw_my_detail_books__fw_favourite_books, .fw_career .fw_experience_career article .fw_favourite_sports .fw_my_detail_sports__fw_favourite_sports, .fw_career .fw_experience_career article .fw_favourite_music .fw_my_detail_music__fw_favourite_music, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article .title__fw_trending_articles .right_site__title .img_wrap__right_site, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article .title__fw_trending_articles .right_site__title .img_wrap__right_site img, .fw_trending_articles__fw_home_left .foot__fw_trending_articles .left_site__foot .img_wrap__left_site, .fw_trending_articles__fw_home_left .foot__fw_trending_articles .right_site__foot .img_wrap__right_site, .fw_home_center__fw_home .fw_filter_article__fw_home_center .right_site__fw_filter_article .filter_hover__right_site ul li img, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_content__fw_article_post .behavior_wrap__fw_content .like_share__behavior_wrap .img_wrap__right_site, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_content__fw_article_post .behavior_wrap__fw_content .like_share__behavior_wrap .img_wrap__right_site img, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right .comment_display__fw_comment_right a, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right .comment_display__fw_comment_right a img, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .author__fw_comment_right .comment_display__fw_comment_right a, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .author__fw_comment_right .comment_display__fw_comment_right a img, .fw_chat .fw_home_chat__fw_home .left_site__fw_home_chat ul li, .fw_chat .fw_home_chat__fw_home .right_site__fw_home_chat .search__right_site img {
   margin-right: 5px; }
 
-.fw_margin_right_sm, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .foot_article__fw_comment_right .right__foot_article .edit_item__right .right__edit_item ul {
+.fw_margin_right_sm, .fw_label_with_number_1st ul li span, .fw_career .fw_experience_career article .fw_my_footsteps ul li span, .fw_career .fw_experience_career article .fw_detail_book ul li span, .fw_career .fw_experience_career article .fw_detail_sport ul li span, .fw_career .fw_experience_career article .fw_detail_music ul li span, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .foot_article__fw_comment_right .right__foot_article .edit_item__right .right__edit_item ul, .fw_home_center__fw_home .fw_post_area__fw_home_center .foot_article__fw_comment_right.move_out .right__foot_article .edit_item__right .right__edit_item ul {
   margin-right: 15px; }
 
 .fw_margin_right_smd {
@@ -446,11 +446,11 @@ input {
 .fw_margin_right_lx {
   margin-right: 60px; }
 
-.fw_margin_left_xs, .fw_trending_articles__fw_home_left .foot__fw_trending_articles .left_site__foot .img_wrap__left_site label,
-.fw_trending_articles__fw_home_left .foot__fw_trending_articles .left_site__foot .img_wrap__left_site span, .fw_home_center__fw_home .fw_post_status__fw_home_center .select_type__fw_post_status .right_site__select_type label.label__right_site, .fw_home_center__fw_home .fw_filter_article__fw_home_center .right_site__fw_filter_article .label_wrap__right_site img, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .counting__fw_comment_right img, .fw_chat .fw_home_chat__fw_home .left_site__fw_home_chat ul li {
+.fw_margin_left_xs, .fw_title_9th .fw_right_edit__fw_experience_career_one a label, .fw_career .fw_experience_career article .fw_experience_career_one .fw_right_edit__fw_experience_career_one a label, .fw_career .fw_experience_career article .fw_my_footsteps_header .fw_right_edit__fw_experience_career_one a label, .fw_career .fw_experience_career article .fw_description_header .fw_right_edit__fw_experience_career_one a label, .fw_career .fw_experience_career article .fw_book_header .fw_right_edit__fw_experience_career_one a label, .fw_career .fw_experience_career article .fw_sport_header .fw_right_edit__fw_experience_career_one a label, .fw_career .fw_experience_career article .fw_music_header .fw_right_edit__fw_experience_career_one a label, .fw_label_with_number_1st ul li span, .fw_career .fw_experience_career article .fw_my_footsteps ul li span, .fw_career .fw_experience_career article .fw_detail_book ul li span, .fw_career .fw_experience_career article .fw_detail_sport ul li span, .fw_career .fw_experience_career article .fw_detail_music ul li span, .fw_career .fw_experience_career article .fw_featured_skills_label ul li span, .fw_trending_articles__fw_home_left .foot__fw_trending_articles .left_site__foot .img_wrap__left_site label,
+.fw_trending_articles__fw_home_left .foot__fw_trending_articles .left_site__foot .img_wrap__left_site span, .fw_home_center__fw_home .fw_post_status__fw_home_center .select_type__fw_post_status .right_site__select_type label.label__right_site, .fw_home_center__fw_home .fw_filter_article__fw_home_center .right_site__fw_filter_article .label_wrap__right_site img, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .counting__fw_comment_right img, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .counting__fw_comment_right img, .fw_chat .fw_home_chat__fw_home .left_site__fw_home_chat ul li {
   margin-left: 5px; }
 
-.fw_margin_left_sm, .fw_notification__fw_header .list_item__fw_notification ul.parent__list_item > li:first-child, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .foot_article__fw_comment_right .right__foot_article .edit_item__right .left__edit_item {
+.fw_margin_left_sm, .fw_notification__fw_header .list_item__fw_notification ul.parent__list_item > li:first-child, .fw_career .fw_experience_career article .fw_featured_skills_label ul li label, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .foot_article__fw_comment_right .right__foot_article .edit_item__right .left__edit_item, .fw_home_center__fw_home .fw_post_area__fw_home_center .foot_article__fw_comment_right.move_out .right__foot_article .edit_item__right .left__edit_item {
   margin-left: 15px; }
 
 .fw_margin_left_smd, .fw_home_center__fw_home .fw_post_status__fw_home_center .select_type__fw_post_status .tab_task__select_type ul li:first-child label {
@@ -465,16 +465,16 @@ input {
 .fw_margin_left_lx {
   margin-left: 60px; }
 
-.fw_margin_top_xs, ul.fw_list_item > li a .notification_item__child label, .fw_notification__fw_home_left .list_item__fw_notification ul li ul.child__list_item > li a .notification_item__child label, .fw_notification__fw_header .list_item__fw_notification ul.parent__list_item > li ul.child__list_item > li a .notification_item__child label, ul.fw_list_item > li a .notification_item__child p, .fw_notification__fw_home_left .list_item__fw_notification ul li ul.child__list_item > li a .notification_item__child p, .fw_notification__fw_header .list_item__fw_notification ul.parent__list_item > li ul.child__list_item > li a .notification_item__child p {
+.fw_margin_top_xs, ul.fw_list_item > li a .notification_item__child label, .fw_notification__fw_home_left .list_item__fw_notification ul li ul.child__list_item > li a .notification_item__child label, .fw_notification__fw_header .list_item__fw_notification ul.parent__list_item > li ul.child__list_item > li a .notification_item__child label, ul.fw_list_item > li a .notification_item__child p, .fw_notification__fw_home_left .list_item__fw_notification ul li ul.child__list_item > li a .notification_item__child p, .fw_notification__fw_header .list_item__fw_notification ul.parent__list_item > li ul.child__list_item > li a .notification_item__child p, .fw_career .fw_experience_career article .fw_experience_career_one .fw_position_one__fw_experience_career_one .fw_right_position__fw_position_one .fw_detail_position__fw_right_position, .fw_career .fw_experience_career article .fw_about_me h4, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .counting__fw_comment_right, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .counting__fw_comment_right {
   margin-top: 5px; }
 
-.fw_margin_top_sm, .fw_notification__fw_home_left .list_item__fw_notification ul, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .counting__fw_comment_right {
+.fw_margin_top_sm, .fw_title_10th, .fw_career .fw_experience_career article .fw_see_all, .fw_notification__fw_home_left .list_item__fw_notification ul, .fw_career .fw_time_line_status .fw_name_user, .fw_career .fw_time_line_status .fw_time_status, .fw_career .fw_img_center, .fw_career .fw_experience_career article .fw_detail_footsteps .fw_my_detail_footsteps__fw_detail_footsteps, .fw_career .fw_experience_career article .fw_detail_footsteps hr, .fw_career .fw_experience_career article .fw_description_header hr, .fw_career .fw_experience_career article .fw_about_me, .fw_career .fw_experience_career article .fw_about_me hr, .fw_career .fw_experience_career article .fw_favourite_books .fw_my_detail_books__fw_favourite_books, .fw_career .fw_experience_career article .fw_favourite_books hr, .fw_career .fw_experience_career article .fw_favourite_sports .fw_my_detail_sports__fw_favourite_sports, .fw_career .fw_experience_career article .fw_favourite_sports hr, .fw_career .fw_experience_career article .fw_favourite_music .fw_my_detail_music__fw_favourite_music, .fw_career .fw_experience_career article .fw_favourite_music hr {
   margin-top: 15px; }
 
-.fw_margin_top_smd {
+.fw_margin_top_smd, .fw_career .fw_experience_career article, .fw_career .fw_experience_career article .fw_featured_skills_label ul {
   margin-left: 20px; }
 
-.fw_margin_top_md {
+.fw_margin_top_md, .fw_label_with_number_1st ul, .fw_career .fw_experience_career article .fw_my_footsteps ul, .fw_career .fw_experience_career article .fw_detail_book ul, .fw_career .fw_experience_career article .fw_detail_sport ul, .fw_career .fw_experience_career article .fw_detail_music ul, .fw_career .fw_career_box, .fw_career .fw_title_profile, .fw_career .fw_experience_career {
   margin-top: 30px; }
 
 .fw_margin_top_lg {
@@ -483,13 +483,16 @@ input {
 .fw_margin_top_lx {
   margin-top: 60px; }
 
-.fw_margin_bottom_xs, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .comment__fw_comment_right .block__comment a, .fw_chat .fw_home_chat__fw_home .left_site__fw_home_chat ul li a img {
+.fw_margin_bottom_xs, .fw_career .fw_experience_career article .fw_about_me h4, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .comment__fw_comment_right .block__comment a, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .counting__fw_comment_right, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .comment__fw_comment_right .block__comment a, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .counting__fw_comment_right, .fw_chat .fw_home_chat__fw_home .left_site__fw_home_chat ul li a img {
   margin-bottom: 5px; }
 
-.fw_margin_bottom_sm, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article, .fw_master_home .fw_home .fw_home_left__fw_home .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article, .fw_home_center__fw_home .fw_add_friends__fw_home_center .friend_list__fw_add_friends article img, .fw_home_center__fw_home .fw_post_status__fw_home_center .select_type__fw_post_status, .fw_home_center__fw_home .fw_post_status__fw_home_center .fw_main_input__fw_post_status, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .comment__fw_comment_right .block__comment, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .counting__fw_comment_right {
+.fw_margin_bottom_sm, .fw_title_10th, .fw_career .fw_experience_career article .fw_see_all, .fw_label_with_number_1st ul, .fw_career .fw_experience_career article .fw_my_footsteps ul, .fw_career .fw_experience_career article .fw_detail_book ul, .fw_career .fw_experience_career article .fw_detail_sport ul, .fw_career .fw_experience_career article .fw_detail_music ul, .fw_career .fw_experience_career article .fw_about_me hr, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article, .fw_master_home .fw_home .fw_home_left__fw_home .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article, .fw_home_center__fw_home .fw_add_friends__fw_home_center .friend_list__fw_add_friends article img, .fw_home_center__fw_home .fw_post_status__fw_home_center .select_type__fw_post_status, .fw_home_center__fw_home .fw_post_status__fw_home_center .fw_main_input__fw_post_status, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .comment__fw_comment_right .block__comment, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .author__fw_comment_right, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .comment__fw_comment_right .block__comment {
   margin-bottom: 15px; }
 
-.fw_margin_bottom_smd, .fw_trending_articles__fw_home_left .title__fw_trending_article, .fw_master_home .fw_home .fw_home_left__fw_home .fw_trending_articles__fw_home_left .title__fw_trending_article, .fw_home_center__fw_home .fw_add_friends__fw_home_center .title__fw_add_friends, .fw_home_right__fw_home .title__fw_home_right, .fw_master_home .fw_home .fw_home_right__fw_home .title__fw_home_right {
+.fw_margin_bottom_sm_god, .fw_career .fw_experience_career article {
+  margin-bottom: 15px !important; }
+
+.fw_margin_bottom_smd, .fw_career .fw_experience_career article .fw_featured_skills_label ul, .fw_trending_articles__fw_home_left .title__fw_trending_article, .fw_master_home .fw_home .fw_home_left__fw_home .fw_trending_articles__fw_home_left .title__fw_trending_article, .fw_home_center__fw_home .fw_add_friends__fw_home_center .title__fw_add_friends, .fw_home_right__fw_home .title__fw_home_right, .fw_master_home .fw_home .fw_home_right__fw_home .title__fw_home_right {
   margin-bottom: 20px; }
 
 .fw_margin_bottom_md {
@@ -532,12 +535,12 @@ input {
   padding-top: 0;
   padding-bottom: 0; }
 
-.fw_clear_float_parent:before, .fw_popover_content nav:before, ul.fw_list_item > li a:before, .fw_notification__fw_home_left .list_item__fw_notification ul li ul.child__list_item > li a:before, .fw_notification__fw_header .list_item__fw_notification ul.parent__list_item > li ul.child__list_item > li a:before, .fw_title_8th:before, .fw_trending_articles__fw_home_left .title__fw_trending_article:before, .fw_master_home .fw_home .fw_home_left__fw_home .fw_trending_articles__fw_home_left .title__fw_trending_article:before, .fw_home_center__fw_home .fw_add_friends__fw_home_center .title__fw_add_friends:before, .fw_home_right__fw_home .title__fw_home_right:before, .fw_master_home .fw_home .fw_home_right__fw_home .title__fw_home_right:before, .fw_section_wrap .section_carousel__fw_section_wrap:before, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article:before, .fw_master_home .fw_home .fw_home_left__fw_home .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article:before, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article .title__fw_trending_articles:before, .fw_trending_articles__fw_home_left .foot__fw_trending_articles:before, .fw_master_home .fw_home .fw_home_left__fw_home .fw_trending_articles__fw_home_left .foot__fw_trending_articles:before, .fw_home_center__fw_home .fw_add_friends__fw_home_center .friend_list__fw_add_friends:before, .fw_home_center__fw_home .fw_filter_article__fw_home_center:before, .fw_master_home .fw_home .fw_home_center__fw_home .fw_filter_article__fw_home_center:before, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_content__fw_article_post:before, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_content__fw_article_post .behavior_wrap__fw_content:before, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post:before, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right:before, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .foot_article__fw_comment_right .right__foot_article .edit_item__right:before, .fw_master_home .fw_home:before {
+.fw_clear_float_parent:before, .fw_popover_content nav:before, ul.fw_list_item > li a:before, .fw_notification__fw_home_left .list_item__fw_notification ul li ul.child__list_item > li a:before, .fw_notification__fw_header .list_item__fw_notification ul.parent__list_item > li ul.child__list_item > li a:before, .fw_title_8th:before, .fw_trending_articles__fw_home_left .title__fw_trending_article:before, .fw_master_home .fw_home .fw_home_left__fw_home .fw_trending_articles__fw_home_left .title__fw_trending_article:before, .fw_home_center__fw_home .fw_add_friends__fw_home_center .title__fw_add_friends:before, .fw_home_right__fw_home .title__fw_home_right:before, .fw_master_home .fw_home .fw_home_right__fw_home .title__fw_home_right:before, .fw_section_wrap .section_carousel__fw_section_wrap:before, .fw_label_with_number_1st ul:before, .fw_career .fw_experience_career article .fw_my_footsteps ul:before, .fw_career .fw_experience_career article .fw_detail_book ul:before, .fw_career .fw_experience_career article .fw_detail_sport ul:before, .fw_career .fw_experience_career article .fw_detail_music ul:before, .fw_career .fw_wall_paper .fw_cover_image:before, .fw_career .fw_left_menu .tutorial__container ul:before, .fw_career .fw_time_line_status:before, .fw_career .fw_experience_career article:before, .fw_career .fw_experience_career article .fw_featured_skills_label ul:before, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article:before, .fw_master_home .fw_home .fw_home_left__fw_home .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article:before, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article .title__fw_trending_articles:before, .fw_trending_articles__fw_home_left .foot__fw_trending_articles:before, .fw_master_home .fw_home .fw_home_left__fw_home .fw_trending_articles__fw_home_left .foot__fw_trending_articles:before, .fw_home_center__fw_home .fw_add_friends__fw_home_center .friend_list__fw_add_friends:before, .fw_home_center__fw_home .fw_filter_article__fw_home_center:before, .fw_master_home .fw_home .fw_home_center__fw_home .fw_filter_article__fw_home_center:before, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_content__fw_article_post:before, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_content__fw_article_post .behavior_wrap__fw_content:before, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post:before, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right:before, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .foot_article__fw_comment_right .right__foot_article .edit_item__right:before, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out:before, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .author__fw_comment_right:before, .fw_home_center__fw_home .fw_post_area__fw_home_center .foot_article__fw_comment_right.move_out .right__foot_article .edit_item__right:before, .fw_master_home .fw_home:before {
   display: block;
   content: '';
   clear: both; }
 
-.fw_clear_float_parent:after, .fw_popover_content nav:after, ul.fw_list_item > li a:after, .fw_notification__fw_home_left .list_item__fw_notification ul li ul.child__list_item > li a:after, .fw_notification__fw_header .list_item__fw_notification ul.parent__list_item > li ul.child__list_item > li a:after, .fw_title_8th:after, .fw_trending_articles__fw_home_left .title__fw_trending_article:after, .fw_master_home .fw_home .fw_home_left__fw_home .fw_trending_articles__fw_home_left .title__fw_trending_article:after, .fw_home_center__fw_home .fw_add_friends__fw_home_center .title__fw_add_friends:after, .fw_home_right__fw_home .title__fw_home_right:after, .fw_master_home .fw_home .fw_home_right__fw_home .title__fw_home_right:after, .fw_section_wrap .section_carousel__fw_section_wrap:after, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article:after, .fw_master_home .fw_home .fw_home_left__fw_home .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article:after, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article .title__fw_trending_articles:after, .fw_trending_articles__fw_home_left .foot__fw_trending_articles:after, .fw_master_home .fw_home .fw_home_left__fw_home .fw_trending_articles__fw_home_left .foot__fw_trending_articles:after, .fw_home_center__fw_home .fw_add_friends__fw_home_center .friend_list__fw_add_friends:after, .fw_home_center__fw_home .fw_filter_article__fw_home_center:after, .fw_master_home .fw_home .fw_home_center__fw_home .fw_filter_article__fw_home_center:after, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_content__fw_article_post:after, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_content__fw_article_post .behavior_wrap__fw_content:after, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post:after, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right:after, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .foot_article__fw_comment_right .right__foot_article .edit_item__right:after, .fw_master_home .fw_home:after {
+.fw_clear_float_parent:after, .fw_popover_content nav:after, ul.fw_list_item > li a:after, .fw_notification__fw_home_left .list_item__fw_notification ul li ul.child__list_item > li a:after, .fw_notification__fw_header .list_item__fw_notification ul.parent__list_item > li ul.child__list_item > li a:after, .fw_title_8th:after, .fw_trending_articles__fw_home_left .title__fw_trending_article:after, .fw_master_home .fw_home .fw_home_left__fw_home .fw_trending_articles__fw_home_left .title__fw_trending_article:after, .fw_home_center__fw_home .fw_add_friends__fw_home_center .title__fw_add_friends:after, .fw_home_right__fw_home .title__fw_home_right:after, .fw_master_home .fw_home .fw_home_right__fw_home .title__fw_home_right:after, .fw_section_wrap .section_carousel__fw_section_wrap:after, .fw_label_with_number_1st ul:after, .fw_career .fw_experience_career article .fw_my_footsteps ul:after, .fw_career .fw_experience_career article .fw_detail_book ul:after, .fw_career .fw_experience_career article .fw_detail_sport ul:after, .fw_career .fw_experience_career article .fw_detail_music ul:after, .fw_career .fw_wall_paper .fw_cover_image:after, .fw_career .fw_left_menu .tutorial__container ul:after, .fw_career .fw_time_line_status:after, .fw_career .fw_experience_career article:after, .fw_career .fw_experience_career article .fw_featured_skills_label ul:after, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article:after, .fw_master_home .fw_home .fw_home_left__fw_home .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article:after, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article .title__fw_trending_articles:after, .fw_trending_articles__fw_home_left .foot__fw_trending_articles:after, .fw_master_home .fw_home .fw_home_left__fw_home .fw_trending_articles__fw_home_left .foot__fw_trending_articles:after, .fw_home_center__fw_home .fw_add_friends__fw_home_center .friend_list__fw_add_friends:after, .fw_home_center__fw_home .fw_filter_article__fw_home_center:after, .fw_master_home .fw_home .fw_home_center__fw_home .fw_filter_article__fw_home_center:after, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_content__fw_article_post:after, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_content__fw_article_post .behavior_wrap__fw_content:after, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post:after, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right:after, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .foot_article__fw_comment_right .right__foot_article .edit_item__right:after, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out:after, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .author__fw_comment_right:after, .fw_home_center__fw_home .fw_post_area__fw_home_center .foot_article__fw_comment_right.move_out .right__foot_article .edit_item__right:after, .fw_master_home .fw_home:after {
   display: block;
   content: '';
   clear: both; }
@@ -551,22 +554,22 @@ input {
   display: block;
   margin: 0 auto; }
 
-.fw_center_horizontal_0th {
+.fw_center_horizontal_0th, .fw_career .fw_wall_paper .fw_cover_image .fw_avatar_center {
   margin-left: auto;
   margin-right: auto;
   left: 0;
   right: 0;
   position: absolute; }
 
-.fw_center_horizontal_1st, .fw_header, .fw_chat, .fw_master_home {
+.fw_center_horizontal_1st, .fw_header, .fw_career .fw_time_line_status .fw_status .container_status__fw_status, .fw_chat, .fw_master_home {
   -ms-transform: translateX(-50%) translateY(0);
   -webkit-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
   position: absolute;
   left: 50%; }
 
-.fw_center_vertical_0th, .fw_avatar a label, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article .title__fw_trending_articles .left_site__title .img_wrap__left_site a label, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right a label, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .comment__fw_comment_right .block__comment a label,
-.fw_avatar a span, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article .title__fw_trending_articles .left_site__title .img_wrap__left_site a span, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right a span, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .comment__fw_comment_right .block__comment a span, .fw_title_8th a, .fw_trending_articles__fw_home_left .title__fw_trending_article a, .fw_master_home .fw_home .fw_home_left__fw_home .fw_trending_articles__fw_home_left .title__fw_trending_article a, .fw_home_center__fw_home .fw_add_friends__fw_home_center .title__fw_add_friends a, .fw_home_right__fw_home .title__fw_home_right a, .fw_master_home .fw_home .fw_home_right__fw_home .title__fw_home_right a, .fw_search_area, .fw_header .fw_header_wrapper .fw_search_area, .fw_search_area .wrap__fw_search_area img, .fw_header .fw_header_wrapper .fw_search_area .wrap__fw_search_area img, .fw_notification__fw_home_left .img_wrap__fw_notification img, .fw_notification__fw_header .img_wrap__fw_notification img, .fw_header .fw_header_wrapper .fw_notification__fw_header .img_wrap__fw_notification img, .fw_notification__fw_header .list_item__fw_notification ul, .fw_header .fw_header_wrapper .fw_notification__fw_header .list_item__fw_notification ul, .fw_header .fw_header_wrapper .fw_logo__fw_header a img, .fw_home_center__fw_home .fw_post_status__fw_home_center .select_type__fw_post_status .tab_task__select_type ul li:first-child img, .fw_home_center__fw_home .fw_post_status__fw_home_center .select_type__fw_post_status .right_site__select_type, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_display_comment, .fw_chat .fw_home_chat__fw_home .right_site__fw_home_chat .search__right_site {
+.fw_center_vertical_0th, .fw_avatar a label, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article .title__fw_trending_articles .left_site__title .img_wrap__left_site a label, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right a label, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .comment__fw_comment_right .block__comment a label, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .author__fw_comment_right a label, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .comment__fw_comment_right .block__comment a label,
+.fw_avatar a span, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article .title__fw_trending_articles .left_site__title .img_wrap__left_site a span, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right a span, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .comment__fw_comment_right .block__comment a span, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .author__fw_comment_right a span, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .comment__fw_comment_right .block__comment a span, .fw_title_8th a, .fw_trending_articles__fw_home_left .title__fw_trending_article a, .fw_master_home .fw_home .fw_home_left__fw_home .fw_trending_articles__fw_home_left .title__fw_trending_article a, .fw_home_center__fw_home .fw_add_friends__fw_home_center .title__fw_add_friends a, .fw_home_right__fw_home .title__fw_home_right a, .fw_master_home .fw_home .fw_home_right__fw_home .title__fw_home_right a, .fw_search_area, .fw_header .fw_header_wrapper .fw_search_area, .fw_search_area .wrap__fw_search_area img, .fw_header .fw_header_wrapper .fw_search_area .wrap__fw_search_area img, .fw_notification__fw_home_left .img_wrap__fw_notification img, .fw_notification__fw_header .img_wrap__fw_notification img, .fw_header .fw_header_wrapper .fw_notification__fw_header .img_wrap__fw_notification img, .fw_notification__fw_header .list_item__fw_notification ul, .fw_header .fw_header_wrapper .fw_notification__fw_header .list_item__fw_notification ul, .fw_header .fw_header_wrapper .fw_logo__fw_header a img, .fw_home_center__fw_home .fw_post_status__fw_home_center .select_type__fw_post_status .tab_task__select_type ul li:first-child img, .fw_home_center__fw_home .fw_post_status__fw_home_center .select_type__fw_post_status .right_site__select_type, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_display_comment, .fw_chat .fw_home_chat__fw_home .right_site__fw_home_chat .search__right_site {
   -ms-transform: translateX(0) translateY(-50%);
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
@@ -584,7 +587,7 @@ input {
   -ms-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%); }
 
-.fw_remove_center, ul.fw_list_item > li a img, .fw_notification__fw_home_left .list_item__fw_notification ul li ul.child__list_item > li a img, .fw_notification__fw_header .list_item__fw_notification ul.parent__list_item > li ul.child__list_item > li a img, .fw_notification__fw_header .list_item__fw_notification ul.parent__list_item > li ul.child__list_item, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right a label span {
+.fw_remove_center, ul.fw_list_item > li a img, .fw_notification__fw_home_left .list_item__fw_notification ul li ul.child__list_item > li a img, .fw_notification__fw_header .list_item__fw_notification ul.parent__list_item > li ul.child__list_item > li a img, .fw_notification__fw_header .list_item__fw_notification ul.parent__list_item > li ul.child__list_item, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right a label span, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .author__fw_comment_right a label span {
   -ms-transform: translateX(0) translateY(0);
   -webkit-transform: translate(0, 0);
   transform: translate(0, 0);
@@ -592,9 +595,9 @@ input {
   left: 0;
   position: relative; }
 
-.fw_img_wrap_0th, .fw_trending_articles__fw_home_left .main_site__fw_trending_articles .img_wrap__main_site, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_content__fw_article_post .img_wrap__fw_content {
+.fw_img_wrap_0th, .fw_career .fw_wall_paper .fw_cover_image, .fw_trending_articles__fw_home_left .main_site__fw_trending_articles .img_wrap__main_site, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_content__fw_article_post .img_wrap__fw_content {
   width: 100%; }
-  .fw_img_wrap_0th img, .fw_trending_articles__fw_home_left .main_site__fw_trending_articles .img_wrap__main_site img, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_content__fw_article_post .img_wrap__fw_content img {
+  .fw_img_wrap_0th img, .fw_career .fw_wall_paper .fw_cover_image img, .fw_trending_articles__fw_home_left .main_site__fw_trending_articles .img_wrap__main_site img, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_content__fw_article_post .img_wrap__fw_content img {
     width: 100%; }
 
 .fw_img_wrap_1st, .fw_columns figure article .img_wrap__fw_columns {
@@ -609,6 +612,13 @@ input {
   text-align: center; }
   .fw_img_wrap_vertical_1st img {
     vertical-align: middle; }
+
+.fw_img_wrap_vertical_2nd, .fw_career .fw_experience_career article .fw_detail_footsteps .fw_my_detail_footsteps__fw_detail_footsteps .fw_wrap_img__my_detail_footsteps, .fw_career .fw_experience_career article .fw_favourite_books .fw_my_detail_books__fw_favourite_books .fw_wrap_img__my_detail_books, .fw_career .fw_experience_career article .fw_favourite_sports .fw_my_detail_sports__fw_favourite_sports .fw_wrap_img__my_detail_sports, .fw_career .fw_experience_career article .fw_favourite_music .fw_my_detail_music__fw_favourite_music .fw_wrap_img__my_detail_music {
+  width: 110px;
+  height: 110px;
+  overflow: hidden; }
+  .fw_img_wrap_vertical_2nd img, .fw_career .fw_experience_career article .fw_detail_footsteps .fw_my_detail_footsteps__fw_detail_footsteps .fw_wrap_img__my_detail_footsteps img, .fw_career .fw_experience_career article .fw_favourite_books .fw_my_detail_books__fw_favourite_books .fw_wrap_img__my_detail_books img, .fw_career .fw_experience_career article .fw_favourite_sports .fw_my_detail_sports__fw_favourite_sports .fw_wrap_img__my_detail_sports img, .fw_career .fw_experience_career article .fw_favourite_music .fw_my_detail_music__fw_favourite_music .fw_wrap_img__my_detail_music img {
+    height: 100%; }
 
 .fw_img_wrap_cent {
   position: relative;
@@ -696,10 +706,10 @@ div[class*="_img_wrap_"] img {
   margin-left: 20px !important;
   opacity: 1 !important; }
 
-.fw_roud_xs, .fw_switch .bar__fw_switch, .fw_home_center__fw_home .fw_post_status__fw_home_center .select_type__fw_post_status .right_site__select_type .fw_switch .bar__fw_switch, .fw_switch .bar__fw_switch:after, .fw_home_center__fw_home .fw_post_status__fw_home_center .select_type__fw_post_status .right_site__select_type .fw_switch .bar__fw_switch:after, ul.fw_list_item, .fw_notification__fw_home_left .list_item__fw_notification ul li ul.child__list_item, .fw_notification__fw_header .list_item__fw_notification ul.parent__list_item > li ul.child__list_item, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article, .fw_master_home .fw_home .fw_home_left__fw_home .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article, .fw_home_center__fw_home .fw_filter_article__fw_home_center nav a.active, .fw_home_center__fw_home .fw_filter_article__fw_home_center .right_site__fw_filter_article .filter_hover__right_site, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .foot_article__fw_comment_right .right__foot_article input[type="text"], .fw_home_right__fw_home ul.parent__fw_home_right > li.active > a, .fw_home_right__fw_home ul.parent__fw_home_right > li.active ul {
+.fw_roud_xs, .fw_switch .bar__fw_switch, .fw_home_center__fw_home .fw_post_status__fw_home_center .select_type__fw_post_status .right_site__select_type .fw_switch .bar__fw_switch, .fw_switch .bar__fw_switch:after, .fw_home_center__fw_home .fw_post_status__fw_home_center .select_type__fw_post_status .right_site__select_type .fw_switch .bar__fw_switch:after, ul.fw_list_item, .fw_notification__fw_home_left .list_item__fw_notification ul li ul.child__list_item, .fw_notification__fw_header .list_item__fw_notification ul.parent__list_item > li ul.child__list_item, .fw_career .fw_experience_career article, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article, .fw_master_home .fw_home .fw_home_left__fw_home .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article, .fw_home_center__fw_home .fw_filter_article__fw_home_center nav a.active, .fw_home_center__fw_home .fw_filter_article__fw_home_center .right_site__fw_filter_article .filter_hover__right_site, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .foot_article__fw_comment_right .right__foot_article input[type="text"], .fw_home_center__fw_home .fw_post_area__fw_home_center .foot_article__fw_comment_right.move_out .right__foot_article input[type="text"], .fw_home_right__fw_home ul.parent__fw_home_right > li.active ul {
   border-radius: 8px; }
 
-.fw_roud_sm {
+.fw_roud_sm, .fw_career .fw_experience_career article .fw_featured_skills_label ul li label {
   border-radius: 16px; }
 
 .fw_roud_md {
@@ -718,16 +728,23 @@ div[class*="_img_wrap_"] img {
   .fw_text_size_xlg_0th {
     font-size: 38px; }
   .fw_text_size_xlg_1st, ul.fw_list_item > li a .notification_item__child label, .fw_notification__fw_home_left .list_item__fw_notification ul li ul.child__list_item > li a .notification_item__child label, .fw_notification__fw_header .list_item__fw_notification ul.parent__list_item > li ul.child__list_item > li a .notification_item__child label, ul.fw_list_item > li a .notification_item__child p, .fw_notification__fw_home_left .list_item__fw_notification ul li ul.child__list_item > li a .notification_item__child p, .fw_notification__fw_header .list_item__fw_notification ul.parent__list_item > li ul.child__list_item > li a .notification_item__child p, .fw_search_area .wrap__fw_search_area input[type="text"], .fw_notification__fw_home_left .img_wrap__fw_notification label, .fw_notification__fw_header .img_wrap__fw_notification label, .fw_header .fw_header_wrapper .fw_notification__fw_header .img_wrap__fw_notification label, .fw_home_center__fw_home .fw_post_status__fw_home_center .select_type__fw_post_status .tab_task__select_type ul li a label, .fw_home_center__fw_home .fw_filter_article__fw_home_center, .fw_master_home .fw_home .fw_home_center__fw_home .fw_filter_article__fw_home_center, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right a label span, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right .comment_display__fw_comment_right a label,
-  .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right .comment_display__fw_comment_right a span, .fw_chat .fw_home_chat__fw_home .left_site__fw_home_chat ul li a label {
+  .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right .comment_display__fw_comment_right a span, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .author__fw_comment_right a label span, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .author__fw_comment_right .comment_display__fw_comment_right a label,
+  .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .author__fw_comment_right .comment_display__fw_comment_right a span, .fw_chat .fw_home_chat__fw_home .left_site__fw_home_chat ul li a label {
     font-size: 9pt; }
   .fw_text_size_xlg_2nd, .fw_trending_articles__fw_home_left .title__fw_trending_article h2, .fw_master_home .fw_home .fw_home_left__fw_home .fw_trending_articles__fw_home_left .title__fw_trending_article h2, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article .title__fw_trending_articles .left_site__title .img_wrap__left_site, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article .title__fw_trending_articles .right_site__title .img_wrap__right_site, .fw_trending_articles__fw_home_left .main_site__fw_trending_articles p, .fw_master_home .fw_home .fw_home_left__fw_home .fw_trending_articles__fw_home_left .main_site__fw_trending_articles p, .fw_trending_articles__fw_home_left .foot__fw_trending_articles .left_site__foot .img_wrap__left_site, .fw_trending_articles__fw_home_left .foot__fw_trending_articles .right_site__foot .img_wrap__right_site, .fw_home_center__fw_home .fw_add_friends__fw_home_center .title__fw_add_friends h2, .fw_home_center__fw_home .fw_add_friends__fw_home_center .friend_list__fw_add_friends article label,
-  .fw_home_center__fw_home .fw_add_friends__fw_home_center .friend_list__fw_add_friends article span, .fw_home_center__fw_home .fw_post_status__fw_home_center .select_type__fw_post_status .right_site__select_type label.label__right_site, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .comment__fw_comment_right .block__comment, .fw_home_right__fw_home .title__fw_home_right h2, .fw_master_home .fw_home .fw_home_right__fw_home .title__fw_home_right h2 {
+  .fw_home_center__fw_home .fw_add_friends__fw_home_center .friend_list__fw_add_friends article span, .fw_home_center__fw_home .fw_post_status__fw_home_center .select_type__fw_post_status .right_site__select_type label.label__right_site, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .comment__fw_comment_right .block__comment, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .author__fw_comment_right, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .comment__fw_comment_right .block__comment, .fw_home_right__fw_home .title__fw_home_right h2, .fw_master_home .fw_home .fw_home_right__fw_home .title__fw_home_right h2 {
     font-size: 12px; }
   .fw_text_size_xlg_3rd, .fw_switch .bar__fw_switch .on__fw_switch label, .fw_home_center__fw_home .fw_post_status__fw_home_center .select_type__fw_post_status .right_site__select_type .fw_switch .bar__fw_switch .on__fw_switch label,
   .fw_switch .bar__fw_switch .off__fw_switch label, .fw_home_center__fw_home .fw_post_status__fw_home_center .select_type__fw_post_status .right_site__select_type .fw_switch .bar__fw_switch .off__fw_switch label, .fw_notification__fw_home_left .list_item__fw_notification ul li a label, .fw_notification__fw_header .list_item__fw_notification ul.parent__list_item > li > a label {
     font-size: 8px; }
-  .fw_text_size_xlg_4th, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right a label, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .comment__fw_comment_right .block__comment a label {
+  .fw_text_size_xlg_4th, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right a label, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .comment__fw_comment_right .block__comment a label, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .author__fw_comment_right a label, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .comment__fw_comment_right .block__comment a label {
     font-size: 12pt; } }
+
+.fw_align_text_vertical_1st, .fw_career .fw_experience_career article .fw_detail_footsteps .fw_my_detail_footsteps__fw_detail_footsteps .fw_footsteps_name__my_detail_footsteps, .fw_career .fw_experience_career article .fw_favourite_books .fw_my_detail_books__fw_favourite_books .fw_footsteps_name__my_detail_books, .fw_career .fw_experience_career article .fw_favourite_sports .fw_my_detail_sports__fw_favourite_sports .fw_sports_name__my_detail_sports, .fw_career .fw_experience_career article .fw_favourite_music .fw_my_detail_music__fw_favourite_music .fw_music_name__my_detail_music {
+  text-align: center;
+  font-size: 8pt;
+  width: 110px;
+  min-height: 50px; }
 
 /* Color */
 /* Font */
@@ -1092,7 +1109,7 @@ div[class*="_img_wrap_"] img {
       content: " ";
       width: 55%;
       height: 100%;
-      background-color: #00e0aa;
+      background-color: #5ab40a;
       position: absolute;
       top: 0;
       left: -1px;
@@ -1451,16 +1468,16 @@ div[class*="_img_wrap_"] img {
     .fw_carousel_maxta .relaSLD > ul li img {
       width: 100%; }
 
-.fw_avatar a, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article .title__fw_trending_articles .left_site__title .img_wrap__left_site a, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right a, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .comment__fw_comment_right .block__comment a {
+.fw_avatar a, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article .title__fw_trending_articles .left_site__title .img_wrap__left_site a, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right a, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .comment__fw_comment_right .block__comment a, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .author__fw_comment_right a, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .comment__fw_comment_right .block__comment a {
   position: relative;
   display: block; }
-  .fw_avatar a img, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article .title__fw_trending_articles .left_site__title .img_wrap__left_site a img, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right a img, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .comment__fw_comment_right .block__comment a img {
+  .fw_avatar a img, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article .title__fw_trending_articles .left_site__title .img_wrap__left_site a img, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right a img, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .comment__fw_comment_right .block__comment a img, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .author__fw_comment_right a img, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .comment__fw_comment_right .block__comment a img {
     border-radius: 50%;
     display: block; }
-  .fw_avatar a label, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article .title__fw_trending_articles .left_site__title .img_wrap__left_site a label, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right a label, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .comment__fw_comment_right .block__comment a label,
-  .fw_avatar a span, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article .title__fw_trending_articles .left_site__title .img_wrap__left_site a span, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right a span, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .comment__fw_comment_right .block__comment a span {
+  .fw_avatar a label, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article .title__fw_trending_articles .left_site__title .img_wrap__left_site a label, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right a label, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .comment__fw_comment_right .block__comment a label, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .author__fw_comment_right a label, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .comment__fw_comment_right .block__comment a label,
+  .fw_avatar a span, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article .title__fw_trending_articles .left_site__title .img_wrap__left_site a span, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right a span, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .comment__fw_comment_right .block__comment a span, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .author__fw_comment_right a span, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .comment__fw_comment_right .block__comment a span {
     left: 20px; }
-  .fw_avatar a span, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article .title__fw_trending_articles .left_site__title .img_wrap__left_site a span, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right a span, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .comment__fw_comment_right .block__comment a span {
+  .fw_avatar a span, .fw_trending_articles__fw_home_left .article_wrapper__fw_trending_articles article .title__fw_trending_articles .left_site__title .img_wrap__left_site a span, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .author__fw_comment_right a span, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_comment_right__fw_article_post .comment__fw_comment_right .block__comment a span, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .author__fw_comment_right a span, .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .comment__fw_comment_right .block__comment a span {
     white-space: nowrap; }
 
 ul.fw_list_item, .fw_notification__fw_home_left .list_item__fw_notification ul li ul.child__list_item, .fw_notification__fw_header .list_item__fw_notification ul.parent__list_item > li ul.child__list_item {
@@ -1497,7 +1514,7 @@ ul.fw_list_item, .fw_notification__fw_home_left .list_item__fw_notification ul l
         ul.fw_list_item > li a .notification_item__child p, .fw_notification__fw_home_left .list_item__fw_notification ul li ul.child__list_item > li a .notification_item__child p, .fw_notification__fw_header .list_item__fw_notification ul.parent__list_item > li ul.child__list_item > li a .notification_item__child p {
           color: #7691e2; }
     ul.fw_list_item > li:hover, .fw_notification__fw_home_left .list_item__fw_notification ul li ul.child__list_item > li:hover, .fw_notification__fw_header .list_item__fw_notification ul.parent__list_item > li ul.child__list_item > li:hover {
-      background-color: #00e0aa; }
+      background-color: #5ab40a; }
       ul.fw_list_item > li:hover a .notification_item__child label, .fw_notification__fw_home_left .list_item__fw_notification ul li ul.child__list_item > li:hover a .notification_item__child label, .fw_notification__fw_header .list_item__fw_notification ul.parent__list_item > li ul.child__list_item > li:hover a .notification_item__child label,
       ul.fw_list_item > li:hover a .notification_item__child p, .fw_notification__fw_home_left .list_item__fw_notification ul li ul.child__list_item > li:hover a .notification_item__child p, .fw_notification__fw_header .list_item__fw_notification ul.parent__list_item > li ul.child__list_item > li:hover a .notification_item__child p {
         color: #fff; }
@@ -1636,6 +1653,26 @@ ul.fw_list_item, .fw_notification__fw_home_left .list_item__fw_notification ul l
       width: 100%;
       height: 100%;
       display: block; }
+
+.fw_title_9th .fw_left_experience__fw_experience_career_one, .fw_career .fw_experience_career article .fw_experience_career_one .fw_left_experience__fw_experience_career_one, .fw_career .fw_experience_career article .fw_my_footsteps_header .fw_left_experience__fw_experience_career_one, .fw_career .fw_experience_career article .fw_description_header .fw_left_experience__fw_experience_career_one, .fw_career .fw_experience_career article .fw_book_header .fw_left_experience__fw_experience_career_one, .fw_career .fw_experience_career article .fw_sport_header .fw_left_experience__fw_experience_career_one, .fw_career .fw_experience_career article .fw_music_header .fw_left_experience__fw_experience_career_one {
+  text-align: left; }
+  .fw_title_9th .fw_left_experience__fw_experience_career_one label, .fw_career .fw_experience_career article .fw_experience_career_one .fw_left_experience__fw_experience_career_one label, .fw_career .fw_experience_career article .fw_my_footsteps_header .fw_left_experience__fw_experience_career_one label, .fw_career .fw_experience_career article .fw_description_header .fw_left_experience__fw_experience_career_one label, .fw_career .fw_experience_career article .fw_book_header .fw_left_experience__fw_experience_career_one label, .fw_career .fw_experience_career article .fw_sport_header .fw_left_experience__fw_experience_career_one label, .fw_career .fw_experience_career article .fw_music_header .fw_left_experience__fw_experience_career_one label {
+    color: #808080; }
+
+.fw_title_9th .fw_right_edit__fw_experience_career_one, .fw_career .fw_experience_career article .fw_experience_career_one .fw_right_edit__fw_experience_career_one, .fw_career .fw_experience_career article .fw_my_footsteps_header .fw_right_edit__fw_experience_career_one, .fw_career .fw_experience_career article .fw_description_header .fw_right_edit__fw_experience_career_one, .fw_career .fw_experience_career article .fw_book_header .fw_right_edit__fw_experience_career_one, .fw_career .fw_experience_career article .fw_sport_header .fw_right_edit__fw_experience_career_one, .fw_career .fw_experience_career article .fw_music_header .fw_right_edit__fw_experience_career_one {
+  text-align: right; }
+  .fw_title_9th .fw_right_edit__fw_experience_career_one a, .fw_career .fw_experience_career article .fw_experience_career_one .fw_right_edit__fw_experience_career_one a, .fw_career .fw_experience_career article .fw_my_footsteps_header .fw_right_edit__fw_experience_career_one a, .fw_career .fw_experience_career article .fw_description_header .fw_right_edit__fw_experience_career_one a, .fw_career .fw_experience_career article .fw_book_header .fw_right_edit__fw_experience_career_one a, .fw_career .fw_experience_career article .fw_sport_header .fw_right_edit__fw_experience_career_one a, .fw_career .fw_experience_career article .fw_music_header .fw_right_edit__fw_experience_career_one a {
+    cursor: pointer;
+    color: #808080; }
+
+.fw_title_10th, .fw_career .fw_experience_career article .fw_see_all {
+  float: left; }
+  .fw_title_10th a, .fw_career .fw_experience_career article .fw_see_all a {
+    text-indent: 10px;
+    color: #7691e2; }
+    .fw_title_10th a i, .fw_career .fw_experience_career article .fw_see_all a i {
+      color: #5ab40a;
+      font-weight: bold; }
 
 div[class^="title"] ~ p,
 div[class*="title"] ~ p {
@@ -1905,6 +1942,15 @@ div[class*="title"] ~ p {
       width: 33.33% !important;
       padding: 0 30px; }
 
+.fw_label_with_number_1st ul li, .fw_career .fw_experience_career article .fw_my_footsteps ul li, .fw_career .fw_experience_career article .fw_detail_book ul li, .fw_career .fw_experience_career article .fw_detail_sport ul li, .fw_career .fw_experience_career article .fw_detail_music ul li {
+  margin-left: 10px; }
+  .fw_label_with_number_1st ul li label, .fw_career .fw_experience_career article .fw_my_footsteps ul li label, .fw_career .fw_experience_career article .fw_detail_book ul li label, .fw_career .fw_experience_career article .fw_detail_sport ul li label, .fw_career .fw_experience_career article .fw_detail_music ul li label {
+    float: left;
+    text-align: center; }
+  .fw_label_with_number_1st ul li span, .fw_career .fw_experience_career article .fw_my_footsteps ul li span, .fw_career .fw_experience_career article .fw_detail_book ul li span, .fw_career .fw_experience_career article .fw_detail_sport ul li span, .fw_career .fw_experience_career article .fw_detail_music ul li span {
+    float: left;
+    color: #5ab40a; }
+
 /* Color */
 /* Font */
 /* Color */
@@ -1933,7 +1979,7 @@ div[class^="_col_"] {
   .fw_col_lg_9s {
     width: 90%;
     float: left; }
-  .fw_col_lg_10 {
+  .fw_col_lg_10, .fw_career .fw_experience_career article .fw_experience_career_one .fw_position_one__fw_experience_career_one .fw_right_position__fw_position_one {
     width: 83.33%;
     float: left; }
   .fw_col_lg_8s, .fw_chat .fw_home_chat__fw_home .left_site__fw_home_chat {
@@ -1954,7 +2000,7 @@ div[class^="_col_"] {
   .fw_col_lg_7 {
     width: 58.33%;
     float: left; }
-  .fw_col_lg_6,
+  .fw_col_lg_6, .fw_title_9th .fw_left_experience__fw_experience_career_one, .fw_career .fw_experience_career article .fw_experience_career_one .fw_left_experience__fw_experience_career_one, .fw_career .fw_experience_career article .fw_my_footsteps_header .fw_left_experience__fw_experience_career_one, .fw_career .fw_experience_career article .fw_description_header .fw_left_experience__fw_experience_career_one, .fw_career .fw_experience_career article .fw_book_header .fw_left_experience__fw_experience_career_one, .fw_career .fw_experience_career article .fw_sport_header .fw_left_experience__fw_experience_career_one, .fw_career .fw_experience_career article .fw_music_header .fw_left_experience__fw_experience_career_one, .fw_title_9th .fw_right_edit__fw_experience_career_one, .fw_career .fw_experience_career article .fw_experience_career_one .fw_right_edit__fw_experience_career_one, .fw_career .fw_experience_career article .fw_my_footsteps_header .fw_right_edit__fw_experience_career_one, .fw_career .fw_experience_career article .fw_description_header .fw_right_edit__fw_experience_career_one, .fw_career .fw_experience_career article .fw_book_header .fw_right_edit__fw_experience_career_one, .fw_career .fw_experience_career article .fw_sport_header .fw_right_edit__fw_experience_career_one, .fw_career .fw_experience_career article .fw_music_header .fw_right_edit__fw_experience_career_one,
   .fw_col_lg_5s {
     width: 50%;
     float: left; }
@@ -1976,7 +2022,7 @@ div[class^="_col_"] {
   .fw_col_lg_2s, .fw_home_left__fw_home, .fw_master_home .fw_home .fw_home_left__fw_home, .fw_home_right__fw_home, .fw_master_home .fw_home .fw_home_right__fw_home, .fw_chat .fw_home_chat__fw_home .right_site__fw_home_chat {
     width: 20%;
     float: left; }
-  .fw_col_lg_2 {
+  .fw_col_lg_2, .fw_career .fw_experience_career article .fw_experience_career_one .fw_position_one__fw_experience_career_one .fw_left_img__fw_position_one {
     width: 16.67%;
     float: left; }
   .fw_col_lg_1s {
@@ -2579,6 +2625,266 @@ div[class^="_col_"] {
 /* Font */
 /* Color */
 /* Font */
+.fw_career {
+  padding-bottom: 60px; }
+  .fw_career .fw_wall_paper {
+    margin-top: 50px;
+    position: relative; }
+    .fw_career .fw_wall_paper .fw_cover_image {
+      max-height: 334px;
+      overflow: hidden; }
+      .fw_career .fw_wall_paper .fw_cover_image .fw_avatar_center {
+        width: 114px;
+        height: 114px;
+        -ms-transform: translateX(0) translateY(-60%);
+        -webkit-transform: translate(0, -60%);
+        transform: translate(0, -60%);
+        z-index: 1; }
+        .fw_career .fw_wall_paper .fw_cover_image .fw_avatar_center img {
+          width: 100%; }
+    .fw_career .fw_wall_paper .fw_menu_header {
+      width: 50%;
+      position: absolute;
+      right: 0;
+      -ms-transform: translateX(0) translateY(-100%);
+      -webkit-transform: translate(0, -100%);
+      transform: translate(0, -100%); }
+      .fw_career .fw_wall_paper .fw_menu_header .container__fw_menu_header .tutorial__container {
+        width: 100%;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        background-color: #5ab40a; }
+        .fw_career .fw_wall_paper .fw_menu_header .container__fw_menu_header .tutorial__container ul {
+          font-size: 0;
+          list-style-type: none;
+          margin-left: 0rem; }
+          .fw_career .fw_wall_paper .fw_menu_header .container__fw_menu_header .tutorial__container ul li {
+            font-size: 1rem;
+            font-weight: 400;
+            color: #333;
+            display: inline-block;
+            padding: 0.6em;
+            position: relative; }
+            .fw_career .fw_wall_paper .fw_menu_header .container__fw_menu_header .tutorial__container ul li ul {
+              display: none; }
+          .fw_career .fw_wall_paper .fw_menu_header .container__fw_menu_header .tutorial__container ul li:hover {
+            cursor: pointer;
+            background-color: #5ab40a; }
+            .fw_career .fw_wall_paper .fw_menu_header .container__fw_menu_header .tutorial__container ul li:hover ul {
+              display: block;
+              margin-top: 9px;
+              width: 200px;
+              left: 0;
+              position: absolute;
+              background-color: #5ab40a;
+              margin-left: 0rem;
+              z-index: 2; }
+              .fw_career .fw_wall_paper .fw_menu_header .container__fw_menu_header .tutorial__container ul li:hover ul li:hover {
+                background-color: #5ab40a;
+                color: #F8FCFD; }
+              .fw_career .fw_wall_paper .fw_menu_header .container__fw_menu_header .tutorial__container ul li:hover ul li {
+                display: block;
+                background-color: #5ab40a; }
+        .fw_career .fw_wall_paper .fw_menu_header .container__fw_menu_header .tutorial__container > ul > li:first-child {
+          padding-left: 60px; }
+  .fw_career .fw_left_menu {
+    background-color: #f0f4f7;
+    width: 310px; }
+    .fw_career .fw_left_menu .tutorial__container ul {
+      border: 1px solid #cccccc; }
+      .fw_career .fw_left_menu .tutorial__container ul li {
+        font-size: 1rem;
+        font-weight: 400;
+        color: #333;
+        float: left;
+        position: relative;
+        border-right: 1px solid #CBCCCE;
+        text-align: center; }
+      .fw_career .fw_left_menu .tutorial__container ul li:hover {
+        cursor: pointer; }
+    .fw_career .fw_left_menu .tutorial__container > ul > li:last-child {
+      border-right: none; }
+  .fw_career .fw_time_line_status .fw_name_user {
+    text-align: center; }
+    .fw_career .fw_time_line_status .fw_name_user p:first-child {
+      font-weight: bold; }
+  .fw_career .fw_time_line_status .fw_time_status {
+    text-align: center; }
+    .fw_career .fw_time_line_status .fw_time_status ul li {
+      list-style-type: none;
+      display: inline-block;
+      position: relative; }
+      .fw_career .fw_time_line_status .fw_time_status ul li hr {
+        display: inline-block;
+        width: 10em;
+        top: -0.3em;
+        position: relative; }
+  .fw_career .fw_time_line_status .fw_status {
+    height: 50px; }
+    .fw_career .fw_time_line_status .fw_status .container_status__fw_status {
+      text-align: center;
+      border: 1px solid;
+      border-radius: 10px;
+      padding: 1%; }
+  .fw_career .fw_career_box {
+    color: #333333;
+    position: relative; }
+    .fw_career .fw_career_box h2 {
+      color: #000;
+      font-weight: 700;
+      font-size: 18pt;
+      display: block;
+      width: 100%;
+      text-align: center;
+      background-color: #5ab40a; }
+  .fw_career .fw_title_profile {
+    text-align: center; }
+    .fw_career .fw_title_profile h3 span {
+      color: #333333;
+      font-weight: 400; }
+    .fw_career .fw_title_profile h3 strong {
+      color: #333333;
+      font-weight: 700; }
+  .fw_career .fw_img_center {
+    text-align: center; }
+  .fw_career .fw_experience_career article {
+    margin: 0 auto;
+    width: 60%;
+    border: 1px solid #cccccc;
+    background-color: #fff; }
+    .fw_career .fw_experience_career article .fw_experience_career_one .fw_position_one__fw_experience_career_one {
+      width: 100%;
+      float: left;
+      margin-bottom: 1em;
+      margin-top: 1em; }
+      .fw_career .fw_experience_career article .fw_experience_career_one .fw_position_one__fw_experience_career_one .fw_left_img__fw_position_one img {
+        width: 80px;
+        height: 80px; }
+    .fw_career .fw_experience_career article .fw_experience_career_one hr {
+      width: 100%; }
+    .fw_career .fw_experience_career article .fw_experience_career_one .fw_position_one__fw_experience_career_one .fw_left_img__fw_position_one img {
+      width: 80px;
+      height: 80px; }
+    .fw_career .fw_experience_career article .fw_more_position__fw_experience_career a {
+      text-indent: 10px;
+      width: 100%;
+      float: left;
+      margin-bottom: 1em;
+      color: #0000FF; }
+      .fw_career .fw_experience_career article .fw_more_position__fw_experience_career a i {
+        color: #5ab40a;
+        font-weight: bold; }
+    .fw_career .fw_experience_career article .fw_more_position__fw_experience_career hr {
+      width: 100%; }
+    .fw_career .fw_experience_career article .fw_more_position__fw_experience_career .fw_featured_skills {
+      color: #808080; }
+    .fw_career .fw_experience_career article .fw_featured_skills_label ul li label {
+      float: left;
+      background-color: #5ab40a;
+      text-align: center; }
+    .fw_career .fw_experience_career article .fw_featured_skills_label ul li span {
+      float: left;
+      margin-top: 3px;
+      color: #5ab40a; }
+    .fw_career .fw_experience_career article .fw_featured_skills_label ul li:first-child label {
+      margin-left: 0; }
+    .fw_career .fw_experience_career article .fw_featured_skills_label hr {
+      width: 100%; }
+  .fw_career .fw_experience_career article .fw_my_footsteps hr {
+    width: 100%; }
+  .fw_career .fw_experience_career article .fw_detail_footsteps .fw_my_detail_footsteps__fw_detail_footsteps {
+    float: left; }
+    .fw_career .fw_experience_career article .fw_detail_footsteps .fw_my_detail_footsteps__fw_detail_footsteps .fw_footsteps_name__my_detail_footsteps label {
+      color: #333333;
+      font-weight: bold; }
+  .fw_career .fw_experience_career article .fw_detail_footsteps hr {
+    float: left;
+    width: 100%; }
+  .fw_career .fw_experience_career article .fw_description_header hr {
+    float: left;
+    width: 100%; }
+  .fw_career .fw_experience_career article .fw_about_me {
+    float: left; }
+    .fw_career .fw_experience_career article .fw_about_me h4 {
+      font-weight: bold;
+      color: #333333; }
+    .fw_career .fw_experience_career article .fw_about_me h4 {
+      font-weight: bold;
+      color: #333333; }
+    .fw_career .fw_experience_career article .fw_about_me hr {
+      width: 100%; }
+  .fw_career .fw_experience_career article .fw_detail_book hr {
+    width: 100%; }
+  .fw_career .fw_experience_career article .fw_favourite_books .fw_my_detail_books__fw_favourite_books {
+    float: left; }
+    .fw_career .fw_experience_career article .fw_favourite_books .fw_my_detail_books__fw_favourite_books .fw_footsteps_name__my_detail_books .fw_title_label label {
+      color: #0000FF;
+      font-weight: bold; }
+    .fw_career .fw_experience_career article .fw_favourite_books .fw_my_detail_books__fw_favourite_books .fw_footsteps_name__my_detail_books .fw_type_label label {
+      color: #333333;
+      font-weight: bold; }
+  .fw_career .fw_experience_career article .fw_favourite_books hr {
+    float: left;
+    width: 100%; }
+  .fw_career .fw_experience_career article .fw_detail_sport hr {
+    width: 100%; }
+  .fw_career .fw_experience_career article .fw_favourite_sports .fw_my_detail_sports__fw_favourite_sports {
+    float: left; }
+    .fw_career .fw_experience_career article .fw_favourite_sports .fw_my_detail_sports__fw_favourite_sports .fw_sports_name__my_detail_sports label {
+      color: #0000FF;
+      font-weight: bold; }
+  .fw_career .fw_experience_career article .fw_favourite_sports hr {
+    float: left;
+    width: 100%; }
+  .fw_career .fw_experience_career article .fw_detail_music hr {
+    width: 100%; }
+  .fw_career .fw_experience_career article .fw_favourite_music .fw_my_detail_music__fw_favourite_music {
+    float: left; }
+    .fw_career .fw_experience_career article .fw_favourite_music .fw_my_detail_music__fw_favourite_music .fw_music_name__my_detail_music .fw_title_label label {
+      color: #0000FF;
+      font-weight: bold; }
+    .fw_career .fw_experience_career article .fw_favourite_music .fw_my_detail_music__fw_favourite_music .fw_music_name__my_detail_music .fw_type_label label {
+      color: #333333;
+      font-weight: bold; }
+  .fw_career .fw_experience_career article .fw_favourite_music hr {
+    float: left;
+    width: 100%; }
+
+/* Color */
+/* Font */
+/* Color */
+/* Font */
+/* Color */
+/* Font */
+/* Color */
+/* Font */
+/* Color */
+/* Font */
+/* Color */
+/* Font */
+/* Color */
+/* Font */
+/* Color */
+/* Font */
+/* Color */
+/* Font */
+/* Color */
+/* Font */
+/* Color */
+/* Font */
+/* Color */
+/* Font */
+/* Color */
+/* Font */
+/* Color */
+/* Font */
+/* Color */
+/* Font */
+/* Color */
+/* Font */
+/* Color */
+/* Font */
+/* Color */
+/* Font */
 .fw_trending_articles__fw_home_left .title__fw_trending_article h2, .fw_master_home .fw_home .fw_home_left__fw_home .fw_trending_articles__fw_home_left .title__fw_trending_article h2 {
   text-transform: uppercase; }
 
@@ -2630,7 +2936,7 @@ div[class^="_col_"] {
   min-height: 1px; }
 
 .fw_home_center__fw_home, .fw_master_home .fw_home .fw_home_center__fw_home {
-  padding-bottom: 76px; }
+  padding-bottom: 150px; }
   .fw_home_center__fw_home .fw_add_friends__fw_home_center, .fw_master_home .fw_home .fw_home_center__fw_home .fw_add_friends__fw_home_center {
     width: 80%; }
     .fw_home_center__fw_home .fw_add_friends__fw_home_center .title__fw_add_friends h2 {
@@ -2663,7 +2969,7 @@ div[class^="_col_"] {
             display: block; }
         .fw_home_center__fw_home .fw_post_status__fw_home_center .select_type__fw_post_status .tab_task__select_type ul li.active label {
           text-transform: uppercase;
-          color: #00e0aa;
+          color: #5ab40a;
           font-weight: bold; }
       .fw_home_center__fw_home .fw_post_status__fw_home_center .select_type__fw_post_status .right_site__select_type {
         right: 0; }
@@ -2683,7 +2989,7 @@ div[class^="_col_"] {
         position: absolute;
         right: 0;
         top: 0;
-        background-color: #00e0aa; }
+        background-color: #5ab40a; }
   .fw_home_center__fw_home .fw_filter_article__fw_home_center, .fw_master_home .fw_home .fw_home_center__fw_home .fw_filter_article__fw_home_center {
     width: 80%;
     margin: 0 auto;
@@ -2695,7 +3001,7 @@ div[class^="_col_"] {
         display: inline-block;
         font-weight: bold; }
         .fw_home_center__fw_home .fw_filter_article__fw_home_center nav a.active {
-          background-color: #00e0aa; }
+          background-color: #5ab40a; }
     .fw_home_center__fw_home .fw_filter_article__fw_home_center .right_site__fw_filter_article {
       float: right;
       width: 30%;
@@ -2712,7 +3018,7 @@ div[class^="_col_"] {
         position: absolute;
         right: 0;
         top: 150%;
-        background-color: #00e0aa;
+        background-color: #5ab40a;
         z-index: 1;
         width: 180px;
         visibility: hidden;
@@ -2725,9 +3031,13 @@ div[class^="_col_"] {
         opacity: 1; }
   .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area {
     border: 1px solid #cccccc;
+    background-color: #fff;
     overflow: hidden;
     position: relative;
     width: 100%; }
+    .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_content__fw_article_post .img_wrap__fw_content {
+      max-height: 336px;
+      overflow: hidden; }
     .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_content__fw_article_post .summary__fw_content p {
       color: #808080; }
     .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_content__fw_article_post .behavior_wrap__fw_content .like_share__behavior_wrap {
@@ -2804,7 +3114,7 @@ div[class^="_col_"] {
       width: 50px;
       height: 50px;
       border-radius: 50px;
-      border: 5px solid #00e0aa;
+      border: 5px solid #5ab40a;
       cursor: pointer;
       left: -50px; }
       .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_display_comment:after {
@@ -2816,33 +3126,104 @@ div[class^="_col_"] {
         border-radius: 50%; }
       .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_article_post__fw_post_area .fw_display_comment img {
         height: 100%; }
+  .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out {
+    margin-top: -15px;
+    background-color: #fff;
+    border-bottom: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    max-height: 465px;
+    overflow-y: scroll; }
+    .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .author__fw_comment_right {
+      border-bottom: 1px solid #cccccc; }
+      .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .author__fw_comment_right a {
+        width: 80%;
+        position: relative;
+        float: left; }
+        .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .author__fw_comment_right a img {
+          width: 17px;
+          height: 17px; }
+        .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .author__fw_comment_right a label {
+          color: #333333;
+          font-weight: bold; }
+          .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .author__fw_comment_right a label span {
+            color: #7691e2; }
+      .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .author__fw_comment_right .comment_display__fw_comment_right {
+        width: 20%;
+        float: right; }
+        .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .author__fw_comment_right .comment_display__fw_comment_right a img {
+          border-radius: 0; }
+        .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .author__fw_comment_right .comment_display__fw_comment_right a span {
+          color: #333333; }
+        .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .author__fw_comment_right .comment_display__fw_comment_right a label,
+        .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .author__fw_comment_right .comment_display__fw_comment_right a span {
+          font-weight: normal; }
+    .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .comment__fw_comment_right .block__comment a {
+      width: 100%;
+      position: relative; }
+      .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .comment__fw_comment_right .block__comment a img {
+        width: 17px;
+        height: 17px; }
+      .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .comment__fw_comment_right .block__comment a label {
+        color: #333333;
+        font-weight: bold; }
+    .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .comment__fw_comment_right .block__comment p a {
+      color: #7691e2; }
+    .fw_home_center__fw_home .fw_post_area__fw_home_center .fw_comment_right__fw_article_post.move_out .counting__fw_comment_right {
+      float: right; }
+  .fw_home_center__fw_home .fw_post_area__fw_home_center .foot_article__fw_comment_right.move_out {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    background-color: #fff; }
+    .fw_home_center__fw_home .fw_post_area__fw_home_center .foot_article__fw_comment_right.move_out .right__foot_article input[type="text"] {
+      width: 100%;
+      border: 1px solid #cccccc;
+      overflow: hidden; }
+    .fw_home_center__fw_home .fw_post_area__fw_home_center .foot_article__fw_comment_right.move_out .right__foot_article .edit_item__right {
+      position: relative; }
+      .fw_home_center__fw_home .fw_post_area__fw_home_center .foot_article__fw_comment_right.move_out .right__foot_article .edit_item__right .left__edit_item {
+        float: left;
+        margin-top: -5px; }
+      .fw_home_center__fw_home .fw_post_area__fw_home_center .foot_article__fw_comment_right.move_out .right__foot_article .edit_item__right .right__edit_item {
+        float: right; }
+        .fw_home_center__fw_home .fw_post_area__fw_home_center .foot_article__fw_comment_right.move_out .right__foot_article .edit_item__right .right__edit_item ul {
+          margin-top: -5px; }
+          .fw_home_center__fw_home .fw_post_area__fw_home_center .foot_article__fw_comment_right.move_out .right__foot_article .edit_item__right .right__edit_item ul li {
+            display: inline-block; }
 
 .fw_home_right__fw_home, .fw_master_home .fw_home .fw_home_right__fw_home {
   min-height: 1px; }
   .fw_home_right__fw_home .title__fw_home_right h2, .fw_master_home .fw_home .fw_home_right__fw_home .title__fw_home_right h2 {
     color: #e95354;
     text-transform: uppercase; }
-  .fw_home_right__fw_home ul.parent__fw_home_right li, .fw_master_home .fw_home .fw_home_right__fw_home ul.parent__fw_home_right li {
-    text-align: right;
-    cursor: pointer; }
-    .fw_home_right__fw_home ul.parent__fw_home_right li a, .fw_master_home .fw_home .fw_home_right__fw_home ul.parent__fw_home_right li a {
-      color: #333333; }
-  .fw_home_right__fw_home ul.parent__fw_home_right > li.active > a {
-    color: #f0f4f7 !important;
-    background-color: #00e0aa; }
-  .fw_home_right__fw_home ul.parent__fw_home_right > li.active ul {
-    border: 1px solid #cccccc;
-    background-color: #fff; }
-    .fw_home_right__fw_home ul.parent__fw_home_right > li.active ul > li {
-      border-bottom: 1px solid #cccccc; }
-      .fw_home_right__fw_home ul.parent__fw_home_right > li.active ul > li:hover {
-        background-color: #00e0aa; }
+  .fw_home_right__fw_home ul.parent__fw_home_right, .fw_master_home .fw_home .fw_home_right__fw_home ul.parent__fw_home_right {
+    position: relative; }
+    .fw_home_right__fw_home ul.parent__fw_home_right li, .fw_master_home .fw_home .fw_home_right__fw_home ul.parent__fw_home_right li {
+      text-align: left;
+      cursor: pointer; }
+      .fw_home_right__fw_home ul.parent__fw_home_right li > a, .fw_master_home .fw_home .fw_home_right__fw_home ul.parent__fw_home_right li > a {
+        color: #333333; }
+    .fw_home_right__fw_home ul.parent__fw_home_right > li, .fw_master_home .fw_home .fw_home_right__fw_home ul.parent__fw_home_right > li {
+      width: 100%;
+      position: relative; }
+      .fw_home_right__fw_home ul.parent__fw_home_right > li.active > a {
+        color: #f6f6f6 !important;
+        background-color: #e95354;
+        text-align: center;
+        width: 100%;
+        display: block;
+        font-weight: bold; }
+      .fw_home_right__fw_home ul.parent__fw_home_right > li.active ul > li {
+        border-bottom: 1px solid #cccccc; }
         .fw_home_right__fw_home ul.parent__fw_home_right > li.active ul > li:hover a {
-          color: #f0f4f7; }
-      .fw_home_right__fw_home ul.parent__fw_home_right > li.active ul > li:last-child {
-        border-bottom: none; }
-      .fw_home_right__fw_home ul.parent__fw_home_right > li.active ul > li a {
-        color: #808080; }
+          color: #333333; }
+        .fw_home_right__fw_home ul.parent__fw_home_right > li.active ul > li:last-child {
+          border-bottom: none; }
+        .fw_home_right__fw_home ul.parent__fw_home_right > li.active ul > li a {
+          color: #808080; }
 
 /* Color */
 /* Font */
@@ -2890,8 +3271,6 @@ div[class^="_col_"] {
     overflow: hidden;
     position: relative; }
     .fw_chat .fw_home_chat__fw_home .left_site__fw_home_chat {
-      white-space: nowrap;
-      overflow-x: scroll;
       border-right: 1px solid #cccccc; }
       .fw_chat .fw_home_chat__fw_home .left_site__fw_home_chat ul {
         width: 100%; }

@@ -1,0 +1,374 @@
+@import functions
+@import fw_style
+@import map-get
++exports("fw_career")
+	.fw_career
+		padding-bottom: 60px
+		.fw_wall_paper
+			margin-top: 50px
+			position: relative
+			.fw_cover_image
+				@extend .fw_clear_float_parent
+				@extend .fw_img_wrap_0th
+				max-height: 334px
+				overflow: hidden
+				.fw_avatar_center
+					width: 114px
+					height: 114px
+					@extend .fw_center_horizontal_0th
+					-ms-transform: translateX(0) translateY(-60%)
+					-webkit-transform: translate(0,-60%)
+					transform: translate(0,-60%)
+					z-index: 1
+					img
+						width: 100%
+			.fw_menu_header
+				width: 50%
+				position: absolute
+				right: 0
+				-ms-transform: translateX(0) translateY(-100%)
+				-webkit-transform: translate(0,-100%)
+				transform: translate(0,-100%)
+				.container__fw_menu_header
+					.tutorial__container
+						width: 100%
+						box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1)
+						background-color: map-get($fw-color-cold,1)
+						ul
+							font-size: 0
+							list-style-type: none
+							margin-left: 0rem
+							li
+								font-size: 1rem
+								font-weight: 400
+								color: #333
+								display: inline-block
+								padding: 0.6em
+								position: relative
+								ul
+									display: none
+							li:hover
+								cursor: pointer
+								background-color: map-get($fw-color-cold,1)
+								ul
+									display: block
+									margin-top: 9px
+									width: 200px
+									left: 0
+									position: absolute
+									background-color: map-get($fw-color-cold,1)
+									margin-left: 0rem
+									z-index: 2
+									li:hover
+										background-color: map-get($fw-color-cold,1)
+										color: #F8FCFD
+									li
+										display: block
+										background-color: map-get($fw-color-cold,1)
+						> ul
+							> li
+								&:first-child
+									padding-left: 60px
+			
+		.fw_left_menu
+			background-color: map-get($fw-color-dark,5)
+			width: 310px
+			.tutorial__container
+				ul
+					border: 1px solid map-get($fw-color-dark,3)
+					@extend .fw_clear_float_parent
+					li
+						font-size: 1rem
+						font-weight: 400
+						color: #333
+						float: left
+						@extend .fw_padding_sm_all
+						position: relative
+						border-right: 1px solid #CBCCCE
+						text-align: center
+					li:hover
+						cursor: pointer
+				> ul
+					> li
+						&:last-child
+							border-right: none
+		.fw_time_line_status
+			@extend .fw_clear_float_parent
+			.fw_name_user
+				text-align: center
+				@extend .fw_margin_top_sm
+				p:first-child
+					font-weight: bold
+			.fw_time_status
+				@extend .fw_margin_top_sm
+				text-align: center
+				ul
+					li
+						list-style-type: none
+						display: inline-block
+						position: relative
+						i
+						hr
+							display: inline-block
+							width: 10em
+							top: -0.3em
+							position: relative
+			.fw_status
+				height: 50px
+				.container_status__fw_status
+					@extend .fw_center_horizontal_1st
+					text-align: center
+					border: 1px solid
+					border-radius: 10px
+					padding: 1%
+		.fw_career_box
+			color: map-get($fw-color-dark,1)
+			position: relative
+			@extend .fw_margin_top_md
+			h2
+				color: #000
+				font-weight: 700
+				font-size: 18pt
+				display: block
+				width: 100%
+				text-align: center
+				background-color: map-get($fw-color-cold,1)
+				@extend .fw_padding_sm_all
+		.fw_title_profile
+			text-align: center
+			@extend .fw_margin_top_md
+			h3
+				span
+					color: map-get($fw-color-dark,1)
+					font-weight: 400
+				strong
+					color: map-get($fw-color-dark,1)
+					font-weight: 700
+		.fw_img_center
+			text-align: center
+			@extend .fw_margin_top_sm
+		.fw_experience_career
+			@extend .fw_margin_top_md
+			article
+				margin: 0 auto
+				width: 60%
+				border: 1px solid map-get($fw-color-dark,3)
+				background-color: map-get($fw-color-white,1)
+				@extend .fw_padding_sm_all
+				@extend .fw_margin_top_smd
+				@extend .fw_roud_xs
+				@extend .fw_margin_bottom_sm_god
+				@extend .fw_clear_float_parent
+				.fw_experience_career_one
+					@extend .fw_title_9th		
+					.fw_position_one__fw_experience_career_one
+						width: 100%
+						float: left
+						margin-bottom: 1em
+						margin-top: 1em
+						.fw_left_img__fw_position_one
+							@extend .fw_col_lg_2
+							img 
+								width: 80px
+								height: 80px
+						.fw_right_position__fw_position_one
+							@extend .fw_col_lg_10
+							.fw_title_positon__fw_right_position
+								h4
+							.fw_detail_position__fw_right_position
+								@extend .fw_margin_top_xs
+								label
+					hr
+						width: 100%
+					.fw_position_one__fw_experience_career_one
+						.fw_left_img__fw_position_one
+							@extend .fw_col_lg_2
+							img 
+								width: 80px
+								height: 80px
+						.fw_right_position__fw_position_one
+							@extend .fw_col_lg_10
+							.fw_title_positon__fw_right_position
+								h4
+							.fw_detail_position__fw_right_position
+								@extend .fw_margin_top_xs	
+				.fw_more_position__fw_experience_career
+					a
+						text-indent: 10px
+						width: 100%
+						float: left
+						margin-bottom: 1em
+						color: map-get($fw-color-blue,1)
+						i
+							color: map-get($fw-color-cold,1)
+							font-weight: bold
+					hr
+						width: 100%
+					.fw_featured_skills
+						@extend .fw_padding_top_sm
+						color: map-get($fw-color-dark,2)
+				.fw_featured_skills_label
+					ul
+						@extend .fw_margin_top_smd
+						@extend .fw_margin_bottom_smd
+						@extend .fw_clear_float_parent
+						li
+							
+							label
+								float: left
+								background-color: map-get($fw-color-cold,1)
+								text-align: center
+								@extend .fw_roud_sm
+								@extend .fw_padding_sxs_all
+								@extend .fw_margin_left_sm
+								@extend .fw_padding_right_sm
+								@extend .fw_padding_left_sm
+							span
+								float: left
+								margin-top: 3px
+								color: map-get($fw-color-cold,1)
+								@extend .fw_margin_left_xs
+								@extend .fw_margin_right_xs
+							&:first-child
+								label
+									margin-left: 0							
+					hr
+						width: 100%
+				.fw_see_all
+					@extend .fw_title_10th
+			article
+				@extend .fw_clear_float_parent
+				.fw_my_footsteps_header
+					@extend .fw_title_9th
+				.fw_my_footsteps
+					@extend .fw_label_with_number_1st
+					hr
+						width: 100%
+				.fw_detail_footsteps
+					.fw_my_detail_footsteps__fw_detail_footsteps
+						float: left
+						@extend .fw_margin_right_xs
+						@extend .fw_margin_top_sm
+						.fw_wrap_img__my_detail_footsteps
+							@extend .fw_img_wrap_vertical_2nd
+						.fw_footsteps_name__my_detail_footsteps
+							@extend .fw_align_text_vertical_1st
+							label
+								color: map-get($fw-color-dark,1)
+								font-weight: bold
+					hr
+						float: left
+						width: 100%
+						@extend .fw_margin_top_sm
+				.fw_see_all
+					@extend .fw_title_10th
+			article
+				.fw_description_header
+					@extend .fw_title_9th
+					hr
+						float: left
+						width: 100%
+						@extend .fw_margin_top_sm
+				.fw_about_me
+					float: left
+					@extend .fw_margin_top_sm
+					h4
+						font-weight: bold
+						color: map-get($fw-color-dark,1)
+						@extend .fw_margin_bottom_xs
+					p
+					h4
+						font-weight: bold
+						color: map-get($fw-color-dark,1)
+						@extend .fw_margin_top_xs
+						@extend .fw_margin_bottom_xs
+					p
+					hr
+						width: 100%
+						@extend .fw_margin_top_sm
+						@extend .fw_margin_bottom_sm
+			article
+				.fw_book_header
+					@extend .fw_title_9th
+				.fw_detail_book
+					@extend .fw_label_with_number_1st
+					hr
+						width: 100%
+				.fw_favourite_books
+					.fw_my_detail_books__fw_favourite_books
+						float: left
+						@extend .fw_margin_right_xs
+						@extend .fw_margin_top_sm
+						.fw_wrap_img__my_detail_books
+							@extend .fw_img_wrap_vertical_2nd
+						.fw_footsteps_name__my_detail_books
+							@extend .fw_align_text_vertical_1st
+							.fw_title_label
+								label
+									color: map-get($fw-color-blue,1)
+									font-weight: bold
+							.fw_type_label
+								label
+									color: map-get($fw-color-dark,1)
+									font-weight: bold
+					hr
+						float: left
+						width: 100%
+						@extend .fw_margin_top_sm
+				.fw_see_all
+					@extend .fw_title_10th
+			article
+				.fw_sport_header
+					@extend .fw_title_9th
+				.fw_detail_sport
+					@extend .fw_label_with_number_1st
+					hr
+						width: 100%
+				.fw_favourite_sports
+					.fw_my_detail_sports__fw_favourite_sports
+						float: left
+						@extend .fw_margin_right_xs
+						@extend .fw_margin_top_sm
+						.fw_wrap_img__my_detail_sports
+							@extend .fw_img_wrap_vertical_2nd
+						.fw_sports_name__my_detail_sports
+							@extend .fw_align_text_vertical_1st
+							label
+								color: map-get($fw-color-blue,1)
+								font-weight: bold
+					hr
+						float: left
+						width: 100%
+						@extend .fw_margin_top_sm
+				.fw_see_all
+					@extend .fw_title_10th
+			article
+				.fw_music_header
+					@extend .fw_title_9th
+				.fw_detail_music
+					@extend .fw_label_with_number_1st
+					hr
+						width: 100%
+				.fw_favourite_music
+					.fw_my_detail_music__fw_favourite_music
+						float: left
+						@extend .fw_margin_right_xs
+						@extend .fw_margin_top_sm
+						.fw_wrap_img__my_detail_music
+							@extend .fw_img_wrap_vertical_2nd
+						.fw_music_name__my_detail_music
+							@extend .fw_align_text_vertical_1st
+							.fw_title_label
+								label
+									color: map-get($fw-color-blue,1)
+									font-weight: bold
+							.fw_type_label
+								label
+									color: map-get($fw-color-dark,1)
+									font-weight: bold
+					hr
+						float: left
+						width: 100%
+						@extend .fw_margin_top_sm
+				.fw_see_all
+					@extend .fw_title_10th
