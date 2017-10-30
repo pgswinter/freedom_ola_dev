@@ -4,7 +4,7 @@
 		@extend .fw_padding_right_lx
 		@extend .fw_padding_left_lx
 		@extend .fw_padding_top_md
-		padding-bottom: 76px
+		padding-bottom: 150px
 		// background: -webkit-linear-gradient(map-get($fw-color-dark,4),#fff,#fff);
 		.fw_add_friends__fw_home_center
 			width: 80%
@@ -149,6 +149,7 @@
 		.fw_post_area__fw_home_center
 			.fw_article_post__fw_post_area
 				border: 1px solid map-get($fw-color-dark,3)
+				background-color: #fff
 				@extend .fw_roud_xs
 				overflow: hidden
 				position: relative
@@ -158,6 +159,8 @@
 					@extend .fw_clear_float_parent
 					.img_wrap__fw_content
 						@extend .fw_img_wrap_0th
+						max-height: 336px
+						overflow: hidden
 					.summary__fw_content
 						@extend .fw_padding_sm_all
 						p
@@ -246,8 +249,8 @@
 								a
 									color: map-get($fw-color_cold,3)
 					.counting__fw_comment_right
-						@extend .fw_margin_bottom_sm
-						@extend .fw_margin_top_sm
+						@extend .fw_margin_bottom_xs
+						@extend .fw_margin_top_xs
 						float: right
 						img
 							@extend .fw_margin_left_xs
@@ -291,3 +294,105 @@
 						border-radius: 50%
 					img
 						height: 100%
+			.fw_comment_right__fw_article_post.move_out
+				@extend .fw_padding_sm_all
+				@extend .fw_clear_float_parent
+				@extend .fw_transition_effect_0th
+				margin-top: -15px
+				background-color: #fff
+				border-bottom: 1px solid map-get($fw-color_dark,3)
+				border-left: 1px solid map-get($fw-color_dark,3)
+				border-right: 1px solid map-get($fw-color_dark,3)
+				max-height: 465px
+				overflow-y: scroll
+				.author__fw_comment_right
+					@extend .fw_avatar
+					@extend .fw_text_size_xlg_2nd
+					@extend .fw_padding_bottom_sm
+					@extend .fw_margin_bottom_sm
+					@extend .fw_clear_float_parent
+					border-bottom: 1px solid map-get($fw-color_dark,3)
+					a
+						width: 80%
+						position: relative
+						float: left
+						img
+							width: 17px
+							height: 17px
+						label
+							color: map-get($fw-color_dark,1)
+							font-weight: bold
+							@extend .fw_text_size_xlg_4th
+							span
+								color: map-get($fw-color_cold,3)
+								@extend .fw_remove_center
+								@extend .fw_text_size_xlg_1st
+					.comment_display__fw_comment_right
+						width: 20%
+						float: right
+						a
+							@extend .fw_margin_right_xs
+							img
+								@extend .fw_margin_right_xs
+								border-radius: 0
+							span
+								color: map-get($fw-color_dark,1)
+							label,
+							span
+								@extend .fw_text_size_xlg_1st
+								font-weight: normal
+				.comment__fw_comment_right
+					.block__comment
+						@extend .fw_avatar
+						@extend .fw_text_size_xlg_2nd
+						@extend .fw_margin_bottom_sm
+						a
+							width: 100%
+							position: relative
+							@extend .fw_margin_bottom_xs
+							img
+								width: 17px
+								height: 17px
+							label
+								color: map-get($fw-color_dark,1)
+								font-weight: bold
+								@extend .fw_text_size_xlg_4th
+						p
+							@extend .fw_padding_left_smd
+							a
+								color: map-get($fw-color_cold,3)
+				.counting__fw_comment_right
+					@extend .fw_margin_bottom_xs
+					@extend .fw_margin_top_xs
+					float: right
+					img
+						@extend .fw_margin_left_xs
+			.foot_article__fw_comment_right.move_out
+				@extend .fw_padding_xs_all
+				border-bottom-left-radius: 8px
+				border-bottom-right-radius: 8px
+				border-bottom: 1px solid map-get($fw-color_dark,3)
+				border-left: 1px solid map-get($fw-color_dark,3)
+				border-right: 1px solid map-get($fw-color_dark,3)
+				background-color: #fff
+				.right__foot_article
+					input[type="text"]
+						width: 100%
+						@extend .fw_roud_xs
+						border: 1px solid map-get($fw-color-dark,3)
+						@extend .fw_padding_xs_all
+						overflow: hidden
+					.edit_item__right
+						position: relative
+						@extend .fw_clear_float_parent
+						.left__edit_item
+							float: left
+							margin-top: -5px
+							@extend .fw_margin_left_sm
+						.right__edit_item
+							float: right
+							ul
+								@extend .fw_margin_right_sm
+								margin-top: -5px
+								li
+									display: inline-block
