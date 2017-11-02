@@ -1,0 +1,118 @@
+@import fw_style
+@import map-get
++exports("fw_profile")
+	.fw_profile
+		@extend .fw_col_lg_12
+		@extend .fw_col_md_12
+		.fw_left_profile
+			@extend .fw_col_lg_3
+			@extend .fw_col_md_3
+			.fw_ola_intro__fw_left_profile
+				padding-bottom: 1em
+				border-bottom: 1px solid #DCDCDC
+				h2
+					padding-left: 1.5em
+					padding-bottom: 1em
+				.fw_flag__fw_ola_intro
+					padding-bottom: 0.5em
+					img
+					span
+						padding-left: 1.2em
+					a
+						padding-left: 0.5em
+						color: #7691e2
+				.fw_glasses__fw_ola_intro
+					padding-bottom: 0.5em
+					img
+					span
+						padding-left: 0.7em
+					a
+						padding-left: 0.5em
+						color: #7691e2
+				.fw_house__fw_ola_intro
+					padding-bottom: 0.5em
+					img
+					span
+						padding-left: 1em
+					a
+						padding-left: 0.5em
+						color: #7691e2
+				.fw_clock__fw_ola_intro
+					padding-bottom: 0.5em
+					img
+					span
+						padding-left: 1em
+				.fw_followed__fw_ola_intro
+					padding-bottom: 0.5em
+					img
+					span
+						padding-left: 0.8em
+					a
+						padding-left: 0.5em
+						color: #7691e2
+			.fw_intro_photo__fw_left_profile
+				.fw_info_photo__fw_intro_photo
+					padding-top: 1em
+					span
+					a
+						padding-left: 1em
+						color: #7691e2
+		.fw_content_profile
+			@extend .fw_col_lg_6
+			@extend .fw_col_md_6
+			.fw_post_status__fw_content_profile
+				.select_type__fw_post_status
+					@extend .fw_margin_bottom_sm
+					.tab_task__select_type
+						ul
+							li
+								display: inline-block
+								position: relative
+								border-left: 1px solid #cccccc
+								padding-left: 1%
+								padding-right: 1%
+				.fw_main_input__fw_post_status
+					position: relative
+					@extend .fw_margin_bottom_sm
+					input[type="text"]
+						@extend .fw_padding_sm_all
+						width: 100%
+						height: 50px
+					.send_post__main_input
+						display: block
+						width: 50px
+						height: 50px
+						position: absolute
+						right: 0
+						top: 0
+						background-color: map-get($fw-color-cold,1)
+						@extend .fw_padding_sm_all
+						img
+							@extend .fw_god_center
+			.fw_article_status__fw_content_profile
+				padding: 1%
+				border-radius: 10px
+				border: 1px solid #DCDCDC
+				.info_post__fw_article_status__fw_content_profile
+						img
+							width: 10%
+						label
+							color: #7691e2
+							font-weight: bold
+							top: -1.5em
+							position: relative
+							padding-left: 2%
+						span
+							top: -1.5em
+							position: relative
+							padding-left: 2%
+						span:last-child
+							padding-left: 18em
+							top: -3em
+							cursor: pointer
+				img
+					width: 100%
+					height: 100%
+		.fw_right_profile
+			@extend .fw_col_lg_3
+			@extend .fw_col_md_3

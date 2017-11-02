@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "3b0d66cbf54c9a03c9a2"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "99f6f92dde2a1f92dbe1"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -7454,19 +7454,32 @@ $(document).ready(function () {
 	item.each(function () {
 		var me = $(this);
 
-		// Set height comment based on height of IMG
-		var getIMGHeight = me.find('.img_wrap__fw_content img').height();
-		var commentWrapper = me.find('.fw_comment_right__fw_article_post');
-		commentWrapper.height(getIMGHeight - 30);
-		var heigthOfCommentWrapper = commentWrapper.height();
-		var commentItem = commentWrapper.find(".comment__fw_comment_right");
-		commentItem.height(heigthOfCommentWrapper - 300);
+		if (me.find('.img_wrap__fw_content img').length == 0) {
+			me.wrap('<div class="fw_article_wrapper__fw_post_area"></div>');
+			me.find('.fw_comment_right__fw_article_post').insertAfter(me).addClass('move_out');
+			me.css({
+				'border-bottom-right-radius': '0',
+				'border-bottom-left-radius': '0'
+			});
 
-		// Display comment button
-		var displayButton = commentWrapper.find('.fw_display_comment');
-		displayButton.clickOutside({
-			selector: commentWrapper
-		});
+			var commentForm = me.siblings('.fw_comment_right__fw_article_post');
+			var commentItem = commentForm.find('.foot_article__fw_comment_right');
+			commentItem.insertAfter(commentForm).addClass('move_out');
+		} else {
+			// Set height comment based on height of IMG
+			var getIMGHeight = me.find('.img_wrap__fw_content').height();
+			var commentWrapper = me.find('.fw_comment_right__fw_article_post');
+			commentWrapper.height(getIMGHeight - 30);
+			var heigthOfCommentWrapper = commentWrapper.height();
+			var commentItem = commentWrapper.find(".comment__fw_comment_right");
+			commentItem.height(heigthOfCommentWrapper - 250);
+
+			// Display comment button
+			var displayButton = commentWrapper.find('.fw_display_comment');
+			displayButton.clickOutside({
+				selector: commentWrapper
+			});
+		}
 	});
 
 	// Switch Button

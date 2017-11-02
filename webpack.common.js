@@ -39,6 +39,11 @@ module.exports={
 	    	template: 'src/pug/career.pug',
 			chunksSortMode: 'dependency'
 		}),
+		new HtmlWebpackPlugin({
+			filename: 'profile.html',
+	    	template: 'src/pug/profile.pug',
+			chunksSortMode: 'dependency'
+		}),
 		new webpack.ProvidePlugin({
 			$: "jquery",
 			jQuery: "jquery",
